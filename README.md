@@ -16,11 +16,10 @@ Features :
     3 Gamelist Views (Detailed, Grid, Basic)
     2 languages (English and French)
     Regional Logos and Artwork (EU, US and JAP)
-	User-selectable display for the game descriptions
-
+	
 
 # MUSIC add-on
-You can add a setlist of music to be played with the theme corresponding to the games used for the background, just paste the ‘es-theme-Animatics-DX-Music’ directory in the theme folder which you can download here : 
+You can add a setlist of music to be played with the theme corresponding to the games used for the background, just paste the ‘zzz-DX-Music’ directory in the theme folder which you can download here : 
 https://github.com/Snapouille/es-theme-Animatics-DX-Music
 
 # System View
@@ -41,8 +40,9 @@ https://github.com/Snapouille/es-theme-Animatics-DX-Music
 # Gamelist View
 
 ## Gamelist view : Detailed
-![pr4](https://github.com/user-attachments/assets/332ecb60-0c05-45d2-91fe-c7a90060d63a)
-
+![pr4](https://github.com/user-attachments/assets/332ecb60-0c05-45d2-91fe-c7a90060d63a)  
+  
+User-selectable display for the game descriptions  
 ![pr5](https://github.com/user-attachments/assets/e81ca17b-a8d0-40c8-8dd8-9209c0cb0c6a)
 
 
@@ -59,4 +59,4 @@ https://github.com/Snapouille/es-theme-Animatics-DX-Music
 ### License :
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
-![2024-03-25 11_28_46-CC BY-NC-SA 4 0 Deed _ Attribution-NonCommercial-ShareAlike 4 0 International _ ](https://github.com/Snapouille/es-theme-Animatics-DX/assets/105559045/5c31f5f7-9877-46ff-a206-7de7875e11ee)
+![Sans titre-1 copie](https://github.com/user-attachments/assets/ab143e49-9fb6-4d75-a7ad-b97928454c27)
