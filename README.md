@@ -46,6 +46,7 @@ User-selectable display for the game descriptions
 ![pr5](https://github.com/user-attachments/assets/e81ca17b-a8d0-40c8-8dd8-9209c0cb0c6a)
   
 ## Gamelist view : GameCarousel
+![gamecarouselview](https://github.com/user-attachments/assets/c64f4a96-69d1-4813-b2f6-3e23d71fef5e)
 
 
 ## Gamelist view : Grid
