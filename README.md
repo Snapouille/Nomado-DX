@@ -29,7 +29,7 @@ https://github.com/Snapouille/es-theme-Animatics-DX-Music
 
 
 ## System View Grid
-![pr2](https://github.com/user-attachments/assets/df70f6ce-558f-4bda-9da2-7e589a08e202)
+![Grid Style](https://github.com/user-attachments/assets/0453b2bb-80a1-4d7d-9852-842f2e9bfd86)
 
 
 ## System View Logos
