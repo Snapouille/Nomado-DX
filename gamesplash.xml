@@ -3,7 +3,6 @@
     <formatVersion>7</formatVersion>
     <include>./theme.xml</include>
     <view name="splash">
-
         <image name="background" visible="true">
             <pos>0.5 0.5</pos>
             <maxSize>1 1</maxSize>
@@ -43,7 +42,5 @@
             <fontPath>${fontPath}</fontPath>
             <zIndex>500</zIndex>
         </text>
-
     </view>
-
 </theme>

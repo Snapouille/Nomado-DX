@@ -36,7 +36,5 @@
 			<colorEnd>${secondaryColor}</colorEnd>
 			<gradientType>vertical</gradientType>
 		</image>
-
     </view>
-
 </theme>

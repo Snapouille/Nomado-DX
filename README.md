@@ -6,14 +6,14 @@ Theme for Emulation Station compatible with
 - [RetroBat](https://www.retrobat.org/)
 - [Knulli](https://knulli.org/)
 
-**V 1.00 - (2025 05 14)**
+**V 1.01 - (2025 05 14)** - See the changelog for details ---> [ChangeLog.md](/ChangeLog.md)
 
 The priority for this theme was fluidity, but also legibility on small and tiny screens.
 
 Features :
 
     3 System Views (Animatics, Grid, Logos)
-    3 Gamelist Views (Detailed, Grid, Basic)
+    4 Gamelist Views (Detailed, Grid, GameCarousel, Basic)
     2 languages (English and French)
     Regional Logos and Artwork (EU, US and JAP)
 	
@@ -44,6 +44,8 @@ https://github.com/Snapouille/es-theme-Animatics-DX-Music
   
 User-selectable display for the game descriptions  
 ![pr5](https://github.com/user-attachments/assets/e81ca17b-a8d0-40c8-8dd8-9209c0cb0c6a)
+  
+## Gamelist view : GameCarousel
 
 
 ## Gamelist view : Grid

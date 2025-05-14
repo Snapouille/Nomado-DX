@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   
-  <view name="detailed,grid,basic">
+  <view name="detailed,grid,gamecarousel,basic">
   
 	<!-- Cadre pour description -->
 	

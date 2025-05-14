@@ -54,27 +54,12 @@ license: creative commons CC-BY-NC-SA
 	<show>Show</show>
 	<hide>Hide</hide>
 	
-	
   </variables>
   
 <!-- Language  -->
 	<include lang="fr">${themePath}/_inc/xml/lang/fr.xml</include>
   
-<!-- Subset aspect ratio auto ou manuel -->
-	<!-- <subset name="aspect-ratio" displayName="Aspect Ratio"> -->
-      <!-- <include if="${screen.width} == '720' && ${screen.height} == '720'" name="720-square-auto" displayName="Automatic" /> -->
-      <!-- <include if="{screen.ratio} == '16/9'" name="16-9-auto" displayName="Automatic" /> -->
-      <!-- <include if="{screen.ratio} == '16/10'" name="16-10-auto" displayName="Automatic" /> -->
-      <!-- <include if="{screen.ratio} == '4/3'" name="4-3-auto" displayName="Automatic" /> -->
-      <!-- <include if="{screen.ratio} == '3/2'" name="3-2-auto" displayName="Automatic" /> -->
-      <!-- <include if="{screen.ratio} == '1/1'" name="1-1-auto" displayName="Automatic" /> -->
-      <!-- <include name="16-9" displayName="16:9" /> -->
-      <!-- <include name="16-10" displayName="16:10" /> -->
-      <!-- <include name="4-3" displayName="4:3" /> -->
-      <!-- <include name="3-2" displayName="3:2" /> -->
-      <!-- <include name="1-1" displayName="1:1" /> -->
-   <!-- </subset> -->
-   
+<!-- Theme Information  -->
 	<subset name="theme_information" displayName="Theme Information">
 		<include name="Show" displayName="${show}">./_inc/xml/infos/theme-info.xml</include>
 		<include name="Hide" displayName="${hide}"/>
@@ -113,8 +98,8 @@ license: creative commons CC-BY-NC-SA
 	
 <!-- Subset options for Background Animation in wheel and simple view -->
 	<subset name="bgAnima" 				displayName="${bganima}">
-		<include name="offset" 			displayName="${offset}"/>
 		<include name="slidedown" 		displayName="${slidedown}"/>
+		<include name="offset" 			displayName="${offset}"/>
 		<include name="zoomout" 		displayName="${zoomout}"/>
 		<include name="nothing" 		displayName="${none}"/>
 	</subset>
@@ -126,22 +111,20 @@ license: creative commons CC-BY-NC-SA
 		<include name="steamos" 	displayName="${steamOs}">./_inc/colorway/steamos.xml</include>
 	</subset>
 
-
 <!-- Affichage des descriptions des jeux / developper / year-->
-	<subset name="gameDescription" displayName="${gameDescription}" appliesTo="detailed, grid">
+	<subset name="gameDescription" displayName="${gameDescription}" appliesTo="detailed,grid,gamecarousel">
 		<include name="Show" displayName="${show}"/>
 		<include name="Hide" displayName="${hide}"/>
 	</subset>
 	
 <!-- Subset options for video preview management -->
-	<subset name="playvideo" displayName="Video" appliesTo="detailed">
+	<subset name="playvideo" displayName="Video" appliesTo="detailed,gamecarousel">
 		<include name="yes1s" 	displayName="${oneDelay}"/>
 		<include name="yes2s" 	displayName="${twoDelay}"/>
 		<include name="yes5s" 	displayName="${threeDelay}"/>
 		<include name="hide" 	displayName="${dontPlay}"/>
 	</subset>
 	
-  
 <!--  MENU Popup  -->
   <view name="menu">
  
@@ -198,21 +181,17 @@ license: creative commons CC-BY-NC-SA
     </menuGroup>
   </view>
   
-  
-  
-  
-
 <!-- XML include -->
 	<include>./_inc/xml/systemview/common-system.xml</include>
     <include>./_inc/xml/gamelistview/common-gamelist.xml</include>
 	<include>./_inc/xml/gamelistview/detailed.xml</include>
+	<include>./_inc/xml/gamelistview/gamecarousel.xml</include>
 	<include>./_inc/xml/gamelistview/grid.xml</include>
 	<include>./_inc/xml/gamelistview/basic.xml</include>
 	<include>./_inc/xml/infos/${system.theme}.xml</include>
 
 <!-- System view commun -->
   <view name="system">
-  
 	<sound name="bgsound">
 		<path>./../zzz-DX-Music/${system.theme}.mp3</path>
 		<path>./../zzz-DX-Music/${system.theme}.ogg</path>
@@ -298,9 +277,8 @@ license: creative commons CC-BY-NC-SA
 	</control>
   </view>
   
-  
 <!-- All views commun -->
-  <view name="system,grid,detailed,basic">
+  <view name="system,grid,detailed,basic,gamecarousel">
   
 	<!-- Bandeau du Cartouche Haut et Bas en black -->
 	<image name="cartouche_haut, cartouche_bas">
@@ -349,7 +327,6 @@ license: creative commons CC-BY-NC-SA
       <iconY>:/help/button_y.svg</iconY>
     </helpsystem>
   </view>
-
 
   <view name="screen">
     <batteryIndicator name="batteryIndicator">
@@ -404,7 +381,6 @@ license: creative commons CC-BY-NC-SA
         <lineSpacing>1</lineSpacing>
       </networkIcon>
     </stackpanel>
-	
   </view>
 
 </theme>
