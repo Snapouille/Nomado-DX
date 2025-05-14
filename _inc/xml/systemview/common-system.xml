@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+	
+<!-- XML commun pour toutes les views Systems	 -->
+<view name="system">
+
+
+<!-- background Snap Legacy -->
+	<image name="BG_snaplegacy" extra="true">
+		<tile>false</tile>
+		<maxSize>2 1</maxSize>
+		<h>1</h>
+		<origin>1 0</origin>
+		<pos>1 0</pos>									
+		<linearSmooth>true</linearSmooth>
+		<path>${themePath}/art/background/${system.theme}.webp</path>
+		<zIndex>3</zIndex>
+		<scale>1</scale>
+		
+		<storyboard ifSubset="bgAnima:offset">
+			<animation property="offsetX" from="0.05" to="0" begin="" duration="500" mode="EaseOut" />
+		</storyboard>
+		
+		<storyboard ifSubset="bgAnima:slidedown">
+			<animation property="offsetY" from="-0.05" to="0" begin="" duration="500" mode="EaseOut" />
+		</storyboard>
+		
+		<storyboard ifSubset="bgAnima:zoomout">
+			<animation property="scale" from="1.07" to="1" begin="" duration="500" mode="EaseOut" />
+		</storyboard>
+	</image>
+
+
+
+<!-- Cadre haut et bas pour console et description -->
+	<image name="frame-cadre-consoles, cadre-consoles, consoles, frame-cadre-description, cadre-description" extra="true">
+		<path>${themePath}/art/white.png</path>
+		<origin>0.5 0.5</origin>	
+		<zIndex>50</zIndex>
+		<linearSmooth>true</linearSmooth>
+		<storyboard>
+			<animation property="offsetX" to="1" begin="5000" duration="1000" mode="EaseOut"/>
+		</storyboard>
+	</image>
+
+	<image name="frame-cadre-consoles">
+		<size>0.4 0.28</size>									
+		<pos>-0.76 0.23</pos>
+	</image>
+	
+	<image name="cadre-consoles">
+		<size>0.394 0.274</size>									
+		<pos>-0.76 0.23</pos>
+		<color>000000</color>
+		<zIndex>51</zIndex>
+	</image>
+	
+	<image name="consoles">
+		<zIndex>52</zIndex>
+		<maxSize>0.36 0.24</maxSize>									
+		<pos>-0.755 0.233</pos>
+		<path>${themePath}/art/consoles/${system.theme}.png</path>
+		<path ifSubset="artworkregion:usa">${themePath}/art/consoles/us/${system.theme}.png</path>
+		<path ifSubset="artworkregion:japan">${themePath}/art/consoles/jp/${system.theme}.png</path>
+	</image>
+	
+	<image name="frame-cadre-description">
+		<size>0.92 0.35</size>									
+		<pos>-0.5 0.763</pos>
+		<pos ifHelpPrompts="false">-0.5 0.813</pos>
+	</image>
+	
+	<image name="cadre-description">
+		<size>0.914 0.344</size>									
+		<pos>-0.5 0.763</pos>
+		<pos ifHelpPrompts="false">-0.5 0.813</pos>
+		<color>000000</color>
+		<zIndex>51</zIndex>
+	</image>
+	
+	<text name="system_description" extra="true">
+		<origin>0.5 0.5</origin>	
+		<fontPath>${themePath}/_inc/fonts/Cabin-Bold.ttf</fontPath>
+		<fontSize>0.033</fontSize>
+		<size>0.86 0.295</size>									
+		<pos>-0.512 0.763</pos>	
+		<pos ifHelpPrompts="false">-0.512 0.813</pos>
+		<verticalAlignment>top</verticalAlignment>
+		<alignment>left</alignment>
+		<autoScroll>vertical</autoScroll>
+		<lineSpacing>1.3</lineSpacing>
+		<color>FFFFFF</color>
+		<zIndex>52</zIndex>
+		<visible>true</visible>  
+		<storyboard>
+			<animation property="offsetX" to="1" begin="5000" duration="1000" mode="EaseOut"/>
+		</storyboard>
+	</text>
+	
+		
+<!-- Cadre pour manufacturer qui vient du bas -->
+	
+	<image name="frame-cadre-manufacturer, cadre-manufacturer" extra="true">
+		<path>${themePath}/art/white.png</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.68 0.765</pos>
+		<pos ifHelpPrompts="false">0.68 0.815</pos>
+		<opacity>0</opacity>
+		<linearSmooth>true</linearSmooth>
+		<storyboard>
+			<animation property="opacity" to="1" 	begin="5800" duration="1" 	 mode="linear"/>
+			<animation property="offsetY" to="-0.2" begin="5800" duration="500" mode="EaseOut"/>
+		</storyboard>
+	</image>
+
+	<image name="frame-cadre-manufacturer">
+		<size>0.524 0.077</size>									
+		<zIndex>48</zIndex>
+	</image>
+	
+	<image name="cadre-manufacturer">
+		<size>0.516 0.068</size>									
+		<color>000000</color>
+		<zIndex>49</zIndex>
+	</image>
+	
+	<text name="manufacturerName, manufacturerRelease" extra="true">
+		<origin>0.5 0.5</origin>	
+		<fontPath>${themePath}/_inc/fonts/Cabin-Bold.ttf</fontPath>
+		<fontSize>0.035</fontSize>
+		<color>FFFFFF</color>
+		<multiLine>false</multiLine>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>50</zIndex>
+		<opacity>0</opacity>
+		<storyboard>
+			<animation property="opacity" to="1" 	begin="5800" duration="1" 	 mode="linear"/>
+			<animation property="offsetY" to="-0.2" begin="5800" duration="500" mode="EaseOut"/>
+		</storyboard>
+	</text>
+	
+	<text name="manufacturerName">
+		<alignment>left</alignment>
+		<size>0.39 0.05</size>									
+		<pos>0.63 0.758</pos>
+		<pos ifHelpPrompts="false">0.63 0.808</pos>
+		<autoScroll>horizontal</autoScroll>
+		<text>{system:manufacturer}</text>
+	</text>
+	
+	<text name="manufacturerRelease">
+		<alignment>right</alignment>
+		<size>0.39 0.05</size>									
+		<pos>0.735 0.758</pos>
+		<pos ifHelpPrompts="false">0.735 0.808</pos>
+		<text>${system.releaseYearOrNull}</text>		
+	</text>
+	
+<!-- On masque tout si l'utilisateur à choisi Hide dans l'affichage des descriptions systèmes -->
+	<image name="frame-cadre-consoles, cadre-consoles, consoles, frame-cadre-description, cadre-description, frame-cadre-manufacturer, cadre-manufacturer">
+		<visible ifSubset="systemDescription:Hide">false</visible>
+	</image>
+	
+	<text name="system_description, manufacturerName, manufacturerRelease">
+		<visible ifSubset="systemDescription:Hide">false</visible>
+	</text>
+	
+	
+</view>
+	
+		
+</theme>

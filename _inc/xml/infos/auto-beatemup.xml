@@ -1,0 +1,54 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Automatic game list. The beat 'em up or beat 'em all is a kind of video game featuring hand-to-hand combat between the protagonist and an unbelievable and endless number of opponents coming to fight.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Liste de jeux automatique. Le beat 'em up ou beat 'em all est un genre de jeu vidéo mettant en scène des combats au corps à corps entre le protagoniste et un nombre invraisemblable et interminable d'adversaires venus pour en découdre.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Automatische Liste von Spielen. Ein Beat 'em up oder Beat 'em all ist ein Videospielgenre, in dem der Protagonist im Nahkampf mit einer unglaublichen und endlosen Anzahl von Gegnern kämpft.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Lista automática de juegos. El beat 'em up o beat 'em all es un género de videojuegos que presenta combates cuerpo a cuerpo entre el protagonista y un número increíble e interminable de adversarios que han venido a luchar.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Elenco dei giochi automatici. Il beat 'em up o beat 'em all è un genere di videogiochi che prevede combattimenti corpo a corpo tra il protagonista e un numero incredibile e infinito di avversari venuti a combattere.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>自動ゲームリスト。beat 'em upまたはbeat 'em allは、主人公と、戦いに来た信じられないほど無限の数の相手との手による戦闘を特徴とするビデオゲームのジャンルです。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Automatische spelletjeslijst. De beat 'em up of beat 'em all is een genre videospel met hand-aan-hand gevechten tussen de hoofdpersoon en een ongelooflijk en eindeloos aantal tegenstanders die zijn gekomen om te vechten.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Automatyczna lista gier. Beat 'em up lub beat 'em all to gatunek gry wideo zawierający walkę wręcz pomiędzy protagonistą a niewiarygodną i nieskończoną liczbą przeciwników, którzy przyszli walczyć.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista de jogos automática. O jogo "beat 'up" ou "beat 'all" é um género de jogo de vídeo com combate corpo a corpo entre o protagonista e um número inacreditável e interminável de adversários que vieram para lutar.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Список автоматических игр. Beat 'em up или beat 'em all - это жанр видеоигр, в котором представлены рукопашные бои между главным героем и невероятным и бесконечным количеством противников, пришедших сразиться.</text>
+</text>
+
+</view>
+</theme>
+

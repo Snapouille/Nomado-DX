@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="detailed">
+  
+	<image name="cartouche_haut">
+		<visible>false</visible>
+	</image>
+  
+    <image name="systemLogo" extra="true">
+		<path>${themePath}/art/logos/${system.theme}.png</path>
+		<path>${themePath}/art/logos/${system.theme}.svg</path>
+		<path>${themePath}/art/logos/${system.theme}-${lang}.png</path>
+		<path ifSubset="artworkregion:usa">${themePath}/art/logos/us/${system.theme}.png</path>
+		<path ifSubset="artworkregion:japan">${themePath}/art/logos/jp/${system.theme}.png</path>
+		<linearSmooth>true</linearSmooth>
+		<pos>0.057 0.02</pos>									
+		<maxSize>0.353125 0.1083333</maxSize>
+   </image>
+
+    <textlist name="gamelist">
+		<lines>15</lines>
+		<primaryColor>${tertiaryColor}</primaryColor>
+		<secondaryColor>${tertiaryColor}</secondaryColor>
+		<selectorColor>c0a767</selectorColor>
+		<selectedColor>${backgroundColor}</selectedColor>
+		<extraTextColor>606060</extraTextColor>		
+		<extraTextSelectedColor>0440ae</extraTextSelectedColor>
+		<forceUppercase>0</forceUppercase>
+		<pos>0.021 0.145</pos>
+	    <pos ifHelpPrompts="false">0.021 0.14</pos>	
+		<size>0.43 0.79</size>
+		<h ifHelpPrompts="false">0.84</h>
+		<alignment>left</alignment>
+		<horizontalMargin>0.00</horizontalMargin>
+		<fontSize>${fontSizeTextList}</fontSize>
+		<scrollbarColor>96969620</scrollbarColor>
+		<scrollbarCorner>0.49</scrollbarCorner>
+		<scrollbarSize>0.0065</scrollbarSize>
+		<scrollbarAlignment>outerright</scrollbarAlignment>
+		<horizontalMargin>0.005</horizontalMargin>
+		<fontPath>${fontPath}</fontPath>
+    </textlist>
+
+    <image name="GameThumbnail" extra="true">
+		<path>firstfile({game:thumbnail},{game:image})</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.735 0.48</pos>									
+		<maxSize>0.4296875 0.7416667</maxSize>									
+		<!-- <verticalAlignment>top</verticalAlignment> -->
+		<horizontalAlignment>center</horizontalAlignment>
+		<linearSmooth>true</linearSmooth>
+		<zIndex>6</zIndex>
+	  
+      <storyboard event="activate" ifSubset="playvideo:yes1s">
+			<animation property="opacity"  to="0"   	begin="1500" duration="100"  />
+      </storyboard>
+      <storyboard event="activate" ifSubset="playvideo:yes2s">
+			<animation property="opacity"  to="0"   	begin="2500" duration="100"  />
+      </storyboard>
+      <storyboard event="activate" ifSubset="playvideo:yes5s">
+			<animation property="opacity"  to="0"   	begin="5500" duration="100"  />
+      </storyboard>
+	  <storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="10" />
+	  </storyboard>
+    </image>
+	
+	
+	<text name="gameRating"	extra="true">
+		<pos>0.8 0.875</pos>
+	    <pos ifHelpPrompts="false">0.8 0.905</pos>	
+		<y if="{screen.ratio} == '1/1'">0.875</y>									
+		<fontSize>0.035</fontSize>
+		<visible>{game:rating} ? 1 : 0</visible>
+		<text>{game:stars}</text>
+        <color>1face0</color>
+		
+      <storyboard event="activate" ifSubset="playvideo:yes1s">
+			<animation property="opacity"  to="0"   begin="1500" duration="100"  />
+      </storyboard>
+      <storyboard event="activate" ifSubset="playvideo:yes2s">
+			<animation property="opacity"  to="0"   begin="2500" duration="100"  />
+      </storyboard>
+      <storyboard event="activate" ifSubset="playvideo:yes5s">
+			<animation property="opacity"  to="0"   begin="5500" duration="100"  />
+      </storyboard>
+	  <storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="10" />
+	  </storyboard>
+	</text>
+	
+	<image name="md_savestate">
+		<x>0.640</x>									
+		<path>${themePath}/_inc/images/icon-savestate.png</path>
+	</image>
+	
+	<image name="md_manual">
+		<x>0.685</x>									
+		<path>${themePath}/_inc/images/icon-manual.png</path>
+	</image>
+	
+	<image name="md_cheevos">
+		<x>0.73</x>									
+		<path>${themePath}/_inc/images/icon-contest.png</path>		
+	</image>
+	
+	<image name="md_manual, md_savestate, md_cheevos">
+		<origin>0.5 0.5</origin>				
+		<maxSize>0.078125 0.1041667</maxSize>									
+		<scale>0.5</scale>
+		<y>0.905</y>
+		<y ifHelpPrompts="false">0.935</y>
+		<y if="{screen.ratio} == '1/1'">0.9</y>									
+			<storyboard event="activate" ifSubset="playvideo:yes1s">
+				<animation property="opacity"  to="0"   begin="1500" duration="100"  />
+			</storyboard>
+			<storyboard event="activate" ifSubset="playvideo:yes2s">
+				<animation property="opacity"  to="0"   begin="2500" duration="100"  />
+			</storyboard>
+			<storyboard event="activate" ifSubset="playvideo:yes5s">
+				<animation property="opacity"  to="0"   begin="5500" duration="100"  />
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="10" />
+			</storyboard>
+	</image>
+	
+    <video name="GameVideo" extra="true">
+		<visible ifSubset="playvideo:hide">false</visible>
+		<path>{game:video}</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.725 0.33</pos>									
+		<maxSize>0.48 0.48</maxSize>									
+		<effect>none</effect>
+		<!-- <horizontalAlignment>center</horizontalAlignment> -->
+		<!-- <verticalAlignment>bottom</verticalAlignment> -->
+		<delay ifSubset="playvideo:yes1s">1.5</delay>
+		<delay ifSubset="playvideo:yes2s">2.5</delay>
+		<delay ifSubset="playvideo:yes5s">5.5</delay>
+		<zIndex>10</zIndex>		
+    </video>
+	
+    <image name="GameImagePreview" extra="true" >
+		<path>{game:image}</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.725 0.3541667</pos>									
+		<maxSize>0.515625 0.5875</maxSize>									
+		<horizontalAlignment>center</horizontalAlignment>
+		<verticalAlignment>center</verticalAlignment>
+		<zIndex>11</zIndex>
+		<opacity>0</opacity>
+	  
+		  <storyboard event="activate" ifSubset="playvideo:yes1s">
+			<animation enabled="!exists({game:video})" property="opacity" from="0" to="1" begin="1600"/>
+		  </storyboard>
+		  <storyboard event="activate" ifSubset="playvideo:yes2s">
+			<animation enabled="!exists({game:video})" property="opacity" from="0" to="1" begin="2600"/>
+		  </storyboard>
+		  <storyboard event="activate" ifSubset="playvideo:yes5s">
+			<animation enabled="!exists({game:video})" property="opacity" from="0" to="1" begin="5600"/>
+		  </storyboard>	  
+    </image>
+	
+    <image name="CartridgeMedia" extra="true">
+		<path>{game:cartridge}</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.62 1.30</pos>
+		<y ifHelpPrompts="false">1.34</y>
+		<maxSize>0.28125 0.2541667</maxSize>									
+		<horizontalAlignment>center</horizontalAlignment>
+		<verticalAlignment>center</verticalAlignment>
+		<zIndex>5</zIndex>
+		<scale>1</scale>
+	  
+      <storyboard event="activate" ifSubset="playvideo:yes1s">
+			<animation property="offsetY"  to="-0.52"   begin="1800" duration="300" mode="easeOut" />
+      </storyboard>
+      <storyboard event="activate" ifSubset="playvideo:yes2s">
+			<animation property="offsetY"  to="-0.52"   begin="2800" duration="300" mode="easeOut" />
+      </storyboard>
+      <storyboard event="activate" ifSubset="playvideo:yes5s">
+			<animation property="offsetY"  to="-0.52"   begin="5800" duration="300" mode="easeOut" />
+      </storyboard>
+	  <storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="1" />
+	  </storyboard>
+    </image>
+	
+	<!-- Visible seulement si il n'existe pas de Cartridge pour le jeu -->
+    <image name="CartridgeMediaNoexist" extra="true">
+		<path>firstfile({game:image}, {game:thumbnail})</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.62 1.30</pos>
+		<y ifHelpPrompts="false">1.33</y>
+		<maxSize>0.28125 0.2541667</maxSize>									
+		<horizontalAlignment>center</horizontalAlignment>
+		<verticalAlignment>center</verticalAlignment>
+		<zIndex>5</zIndex>
+		<scale>1</scale>
+		<visible>!exists({game:cartridge})</visible>
+	  
+      <storyboard event="activate" ifSubset="playvideo:yes1s">
+			<animation property="offsetY"  to="-0.52"   begin="1800" duration="300" mode="easeOut" />
+      </storyboard>
+      <storyboard event="activate" ifSubset="playvideo:yes2s">
+			<animation property="offsetY"  to="-0.52"   begin="2800" duration="300" mode="easeOut" />
+      </storyboard>
+      <storyboard event="activate" ifSubset="playvideo:yes5s">
+			<animation property="offsetY"  to="-0.52"   begin="5800" duration="300" mode="easeOut" />
+      </storyboard>
+	  <storyboard event="deactivate">
+		<animation property="opacity" to="0" duration="1" />
+	  </storyboard>
+    </image>
+	
+	<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
+		<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime">
+			<origin>0.5 0.5</origin>	
+			<visible>true</visible>
+			<size>0.22 0.03</size>
+			<color>C0C0C0</color>
+			<alignment>right</alignment>
+			<fontPath>${fontPath}</fontPath>
+			<fontSize>0.025</fontSize>
+			<x>1.375</x>
+		    <zIndex>5005</zIndex>
+			
+			  <storyboard event="activate" ifSubset="playvideo:yes1s">
+					<animation property="offsetX"  to="-0.5"   begin="1900" duration="300" mode="easeOut" />
+			  </storyboard>
+			  <storyboard event="activate" ifSubset="playvideo:yes2s">
+					<animation property="offsetX"  to="-0.5"   begin="2900" duration="300" mode="easeOut" />
+			  </storyboard>
+			  <storyboard event="activate" ifSubset="playvideo:yes5s">
+					<animation property="offsetX"  to="-0.5"   begin="5900" duration="300" mode="easeOut" />
+			  </storyboard>
+			  <storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="1" />
+			  </storyboard>
+		</text>
+		
+		<text name="md_lbl_playcount">
+			<y>0.69</y>
+			<y ifHelpPrompts="false">0.72</y>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+			<y>0.77</y>
+			<y ifHelpPrompts="false">0.80</y>
+		</text>
+		
+		<text name="md_lbl_gametime">
+			<y>0.86</y>
+			<y ifHelpPrompts="false">0.89</y>
+		</text>
+		
+	<!-- METADATA -->
+		<text name="md_playcount, md_lastplayed, md_gametime">
+		   <origin>0.5 0.5</origin>	
+		   <fontPath>${fontPath}</fontPath>
+		   <fontSize>0.026</fontSize>
+		   <color>0066ff</color>
+		   <glowSize>0</glowSize>
+		   <alignment>right</alignment>
+		   <size>0.2 0.03</size>
+		   <x>1.38</x>
+		   <zIndex>5005</zIndex>
+		   
+			  <storyboard event="activate" ifSubset="playvideo:yes1s">
+					<animation property="offsetX"  to="-0.5"   begin="1900" duration="300" mode="easeOut" />
+			  </storyboard>
+			  <storyboard event="activate" ifSubset="playvideo:yes2s">
+					<animation property="offsetX"  to="-0.5"   begin="2900" duration="300" mode="easeOut" />
+			  </storyboard>
+			  <storyboard event="activate" ifSubset="playvideo:yes5s">
+					<animation property="offsetX"  to="-0.5"   begin="5900" duration="300" mode="easeOut" />
+			  </storyboard>
+			  <storyboard event="deactivate">
+				<animation property="opacity" to="0" duration="1" />
+			  </storyboard>
+		</text>
+		
+		<text name="md_playcount">
+			<y>0.728</y>
+			<y ifHelpPrompts="false">0.758</y>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<y>0.808</y>
+			<y ifHelpPrompts="false">0.838</y>
+		</datetime>
+		
+		<text name="md_gametime">
+			<y>0.898</y>	
+			<y ifHelpPrompts="false">0.928</y>
+		</text>
+		
+<!-- On masque si il s'agit d'un système MISC ou on a pas besoin de ses infos -->
+	<image name="CartridgeMediaNoexist, GameImagePreview">
+		<visible if="{system.theme} == 'library' || {system.theme} == 'imageviewer'">false</visible>
+	</image>
+	
+	<text name="md_playcount, md_lastplayed, md_gametime,md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime">
+		<visible if="{system.theme} == 'library' || {system.theme} == 'imageviewer'">false</visible>
+	</text>
+	
+	<datetime name="md_lastplayed">
+		<visible if="{system.theme} == 'library' || {system.theme} == 'imageviewer'">false</visible>
+	</datetime>
+	
+	<!-- on laisse une preview de base avec la maxsize avec aucune animation -->
+    <image name="GameImagePreviewSystemMISC" if="{system.theme} == 'library' || {system.theme} == 'imageviewer'" extra="true" >
+		<path>{game:image}</path>
+		<origin>0.5 0.5</origin>									
+		<pos>0.735 0.48</pos>									
+		<maxSize>0.4296875 0.7416667</maxSize>									
+		<horizontalAlignment>center</horizontalAlignment>
+		<verticalAlignment>center</verticalAlignment>
+		<zIndex>20</zIndex>
+    </image>
+		
+		
+  </view>
+  
+</theme>

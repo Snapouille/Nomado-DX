@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<!-- French -->
+<variables lang="fr">
+
+	<subset.region>Région</subset.region>
+	<eu>Europe</eu>
+	<us>USA</us>
+	<jp>Japon</jp>
+	<systemViewName>Vue Système</systemViewName>
+	<systemview.wheel>Roue</systemview.wheel>
+	<systemview.grid>Grille</systemview.grid>
+
+	<GamesNumber>Jeux</GamesNumber>
+	<GameNumber>Jeu</GameNumber>
+
+	<GridArtStyle>Style d'Art (vue Grille)</GridArtStyle>
+
+	<oneDelay>Délai : 1 seconde</oneDelay>
+	<twoDelay>Délai : 2 secondes</twoDelay>
+	<threeDelay>Délai : 5 secondes</threeDelay>
+	<dontPlay>Ne pas afficher</dontPlay>
+	
+	<Colorway>Gamme de Couleurs</Colorway>
+	<extraDark>Foncé</extraDark>
+	<dark>Clair</dark>
+	<steamOs>Steam</steamOs>
+
+	<GamesFavs>Favoris</GamesFavs>
+	<NumberPlayed>Joués</NumberPlayed>
+	<theme.mostplayed>Le plus joué :</theme.mostplayed>
+	<theme.lastPlayedDate>Date du dernier jeu :</theme.lastPlayedDate>	
+
+	<bganima>Animation de l'arrière-plan</bganima>
+	<zoomout>Zoom Arrière</zoomout>
+	<offset>Décallage</offset>
+	<slidedown>Glissement bas</slidedown>
+	<none>Aucune</none>
+	
+	<gameDescription>Description des Jeux</gameDescription>
+	<systemDescription>Description des Systèmes</systemDescription>
+	<show>Afficher</show>
+	<hide>Masquer</hide>
+
+
+<!-- <systemBackgroundName>Arrière-plan</systemBackgroundName> -->
+<!-- <systembackground.snap>Avatar animation</systembackground.snap> -->
+<!-- <systembackground.carboncontrol>Manettes fil de fer</systembackground.carboncontrol> -->
+<!-- <systembackground.randomvideo>Vidéo aléatoire</systembackground.randomvideo> -->
+<!-- <systembackground.fanart>Fanart aléatoire</systembackground.fanart> -->
+<!-- <systembackground.randombox>Boîtes de jeu aléatoire</systembackground.randombox> -->
+<!-- <tilesViewName>Vignettes</tilesViewName> -->
+<!-- <iconsViewName>Icônes</iconsViewName> -->
+<!-- <detailedLogoViewName>Détaillé avec liste de logos</detailedLogoViewName> -->
+<!-- <basicGridName>Boites</basicGridName> -->
+<!-- <carouselViewName>Carousel de boites</carouselViewName> -->
+<!-- <InfoCustomView>Infos / Stats</InfoCustomView> -->
+<!-- <infoDetailed>Détaillées</infoDetailed> -->
+<!-- <totalGamesInfos>Total des jeux</totalGamesInfos> -->
+<!-- <subset.colorset>Jeux de couleurs</subset.colorset> -->
+<!-- <none>Aucun</none> -->
+<!-- <systemview.vertical>Vertical</systemview.vertical> -->
+<!-- <systemview.horizontal>Horizontal</systemview.horizontal> -->
+<!-- <systemview.wheel>Roue</systemview.wheel> -->
+<!-- <systemview.simple>Simple</systemview.simple> -->
+<!-- <cyan>Cyan</cyan> -->
+<!-- <orange>Orange</orange> -->
+<!-- <purple>Violet</purple> -->
+<!-- <blue>Bleu</blue> -->
+<!-- <red>Rouge</red> -->
+<!-- <green>Vert</green> -->
+<!-- <yellow>Jaune</yellow> -->
+<!-- <gray>Gris</gray> -->
+<!-- <roundBorderSubsetName>Bords arrondis</roundBorderSubsetName> -->
+<!-- <blinkBorderSubsetName>Bords clignotants</blinkBorderSubsetName> -->
+<!-- <yes>Oui</yes> -->
+<!-- <no>Non</no> -->
+<!-- <previewBarSubsetName>Volet aperçu</previewBarSubsetName> -->
+<!-- <animationsSubsetName>Animations de transition</animationsSubsetName> -->
+<!-- <helpSubsetName>Icônes d'aide</helpSubsetName> -->
+<!-- <colored>Colorés</colored> -->
+<!-- <subset.shader>Effets TV</subset.shader> -->
+<!-- <glowSubsetName>Sélection en Halo</glowSubsetName> -->
+<!-- <systemViewExInfos>Informations du système améliorées</systemViewExInfos> -->
+<!-- <dateFormat>%d/%m/%Y</dateFormat> -->
+<!-- <helpbuttons>Position des boutons</helpbuttons> -->
+<!-- <xboxbuttons>Xbox boutons</xboxbuttons> -->
+<!-- <xboxbuttonslegacy>Xbox boutons legacy</xboxbuttonslegacy> -->
+<!-- <psxbuttons>Playstation boutons</psxbuttons> -->
+<!-- <psxbuttonslegacy>Playstation boutons legacy</psxbuttonslegacy> -->
+<!-- <arcadebuttons>Arcade boutons</arcadebuttons> -->
+<!-- <gamecarouseltype>Image source</gamecarouseltype> -->
+<!-- <gameBar>Barre d'information des jeux</gameBar> -->
+<!-- <animatedInfobar>Animation du volet aperçu</animatedInfobar> -->
+<!-- <subset.logostyle>Style des logos</subset.logostyle> -->
+<!-- <color>Colorés</color> -->
+<!-- <blackandwhite>Noir et Blanc</blackandwhite> -->
+<!-- <custom>Personnalisé</custom> -->
+<!-- <user.logo>Votre Logo</user.logo> -->
+<!-- <user.username>Votre surnom</user.username> -->
+<!-- <system-description>Descriptions des systèmes</system-description> -->
+<!-- <system-controllers>Image des contrôleurs</system-controllers> -->
+<!-- <bigboxesview>Boîtes - Grand format</bigboxesview> -->
+<!-- <mediumboxesview>Boîtes - Format moyen</mediumboxesview> -->
+<!-- <smallboxesview>Boîtes - Petit format</smallboxesview> -->
+<!-- <user.help>Help for custom logo and nickname</user.help> -->
+<!-- <subset.frameColor>Couleur du cadre</subset.frameColor> -->
+<!-- <subset.infoColor>Couleur texte et info</subset.infoColor> -->
+<!-- <dimgray>Gris sombre</dimgray> -->
+<!-- <silver>Argent</silver> -->
+<!-- <ivory>Ivoire</ivory> -->
+<!-- <lavenderblush>Lavande</lavenderblush> -->
+<!-- <mistyrose>Rose brumeuse</mistyrose> -->
+<!-- <lightpink>Rose pâle</lightpink> -->
+<!-- <deeppink>Rose foncé</deeppink> -->
+<!-- <palevioletred>Rouge violacé</palevioletred> -->
+<!-- <plum>Prunelle</plum> -->
+<!-- <orchid>Orchidée</orchid> -->
+<!-- <darkorchid>Orchidée foncée</darkorchid> -->
+<!-- <slateblue>Bleu ardoise</slateblue> -->
+<!-- <mediumpurple>Pourpre moyen</mediumpurple> -->
+<!-- <rosybrown>Brun rosé</rosybrown> -->
+<!-- <lightcoral>Corail clair</lightcoral> -->
+<!-- <tomato>Tomate</tomato> -->
+<!-- <orangered>Rouge orangé</orangered> -->
+<!-- <crimson>Pourpre</crimson> -->
+<!-- <lightsalmon>Saumon lumineux</lightsalmon> -->
+<!-- <darksalmon>Saumon sombre</darksalmon> -->
+<!-- <indianred>Rouge indien</indianred> -->
+<!-- <firebrick>Brique de feu</firebrick> -->
+<!-- <maroon>Marron</maroon> -->
+<!-- <papayawhip>Papaye</papayawhip> -->
+<!-- <peachpuff>Tache de pêche</peachpuff> -->
+<!-- <tan>Tan</tan> -->
+<!-- <sandybrown>Marron sablonneux</sandybrown> -->
+<!-- <darkorange>Orange sombre</darkorange> -->
+<!-- <chocolate>Chocolat</chocolate> -->
+<!-- <peru>Peru</peru> -->
+<!-- <sunny>Soleil</sunny> -->
+<!-- <yellowgreen>Jaune-vert</yellowgreen> -->
+<!-- <chartreuse>Chartreuse</chartreuse> -->
+<!-- <lime>Citron vert</lime> -->
+<!-- <springgreen>Vert printanier</springgreen> -->
+<!-- <darkseagreen>Vert d'eau sombre</darkseagreen> -->
+<!-- <lightcyan>Cyan clair</lightcyan> -->
+<!-- <paleturquoise>Paleturquoise</paleturquoise> -->
+<!-- <aquamarine>Aquamarine</aquamarine> -->
+<!-- <aqua>Aqua</aqua> -->
+<!-- <turquoise>Turquoise</turquoise> -->
+<!-- <teal>Saphir</teal> -->
+<!-- <cadetblue>Cadetblue</cadetblue> -->
+<!-- <lightskyblue>Bleu ciel clair</lightskyblue> -->
+<!-- <skyblue>Bleu ciel</skyblue> -->
+<!-- <deepskyblue>Bleu profond</deepskyblue> -->
+<!-- <cornflowerblue>Bleu azur</cornflowerblue> -->
+<!-- <steelblue>Bleu acier</steelblue> -->
+<!-- <royalblue>Bleu royal</royalblue> -->
+<!-- <midnightblue>Bleu nuit</midnightblue> -->
+<!-- <gamelistFont>gamelist : Type de police </gamelistFont> -->
+<!-- <gamelistFontSize>gamelist : Taille de la police</gamelistFontSize> -->
+<!-- <gamelistLines>gamelist : Nombre de lignes</gamelistLines> -->
+<!-- <background.Display>Affichage en arrière plan</background.Display> -->
+<!-- <descriptionFontSize>Taille de la police des descriptions</descriptionFontSize> -->
+<!-- <fanartOpacity>Opacité de l'overlay du Fanart</fanartOpacity> -->
+<!-- <gamelistOpacity>Opacité de la Gamelist</gamelistOpacity> -->
+<!-- <background.Ambience>Ambiance de l'arrière plan</background.Ambience> -->
+<!-- <dark>Sombre</dark> -->
+<!-- <light>Lumineux</light> -->
+
+
+<!-- <theme.lastplayedLabel>Dernier jeu :  </theme.lastplayedLabel> -->
+<!-- <theme.timesPlayedLabel>Nombre de parties : </theme.timesPlayedLabel> -->
+<!-- <theme.gameTimeLabel>Temps de jeu : </theme.gameTimeLabel> -->
+
+
+
+<!-- <systemview.grid>grille (nouveauté)</systemview.grid> -->
+<!-- <subset.Grid_View_Size>Vue Grille : dimensions</subset.Grid_View_Size> -->
+
+<!-- <boxfront.Display>boîtes de jeu face avant</boxfront.Display> -->
+<!-- <boxback.Display>boîtes de jeu face arrière</boxback.Display> -->
+<!-- <cartridge.Display>cartouches de  jeu</cartridge.Display> -->
+
+
+
+</variables>
+
+</theme>
+
+
+

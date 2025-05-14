@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The Jaguar CD is a peripheral for the Atari Jaguar, allowing the reading of CD-ROMs. There will be very few games developed. Despite this, the Jaguar has attracted a number of amateur developers since its production ended in 1996.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le Jaguar CD est un périphérique pour la Jaguar d'Atari permettant la lecture de CD-ROM. Beaucoup de jeux seront annoncés, mais Atari va mettre la clé sous la porte très rapidement et beaucoup resteront inachevés. Le kit de développement assez complexe n'arrangera en rien la situation. L'accessoire n'étant pas zoné on pouvait faire tourner des jeux de n'importe quel pays.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die Jaguar CD ist ein Peripheriegerät für den Atari Jaguar, mit dem CD-ROMs abgespielt werden können. Es werden nur sehr wenige Spiele entwickelt. Trotzdem zieht der Jaguar seit seinem Produktionsende im Jahr 1996 eine Reihe von Hobbyentwicklern an.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El Jaguar CD es un periférico para el Atari Jaguar que permite la lectura de CD-ROMs. Se desarrollan muy pocos juegos. A pesar de ello, el Jaguar ha atraído a numerosos desarrolladores aficionados desde que finalizó su producción en 1996.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il Jaguar CD è una periferica per l'Atari Jaguar che consente la lettura di CD-ROM. I giochi sviluppati saranno pochissimi. Nonostante ciò, il Jaguar ha attirato numerosi sviluppatori amatoriali da quando la sua produzione è terminata nel 1996.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Jaguar CDは、Atari Jaguar用の周辺機器で、CD-ROMの読み込みが可能です。開発されたゲームはほとんどないだろう。にもかかわらず、Jaguarは1996年に生産が終了して以来、多くのアマチュア開発者を惹きつけています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De Jaguar CD is een randapparaat voor de Atari Jaguar, waarmee CD-ROM's kunnen worden gelezen. Er worden weinig spellen ontwikkeld. Desondanks heeft de Jaguar een aantal amateur-ontwikkelaars aangetrokken sinds de productie ervan in 1996 eindigde.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Jaguar CD to urządzenie peryferyjne dla Atari Jaguar, umożliwiające odczyt płyt CD-ROM. Powstanie bardzo mało gier. Pomimo tego, Jaguar przyciągnął wielu amatorskich programistów od czasu zakończenia jego produkcji w 1996 roku.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O CD Jaguar é um periférico para o Atari Jaguar, permitindo a leitura de CD-ROMs. Haverá muito poucos jogos desenvolvidos. Apesar disso, o Jaguar atraiu vários criadores amadores desde que a sua produção terminou em 1996.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Jaguar CD - это периферийное устройство для Atari Jaguar, позволяющее читать CD-ROM. Игр будет разработано очень мало. Несмотря на это, Jaguar привлек множество разработчиков-любителей после того, как его производство закончилось в 1996 году.</text>
+</text>
+
+</view>
+</theme>

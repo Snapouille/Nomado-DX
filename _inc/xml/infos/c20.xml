@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The VIC-20 is an 8-bit personal computer with 5 kB of RAM (including 3.5 kB for BASIC applications) and a CPU based on a MOS 6502 processor. It looked like its successors the C64 and the C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Le VIC-20 est un ordinateur personnel 8 bits avec 5 ko de RAM (dont 3,5 ko pour les applications BASIC) et une unité centrale basée sur un processeur MOS 6502. Il ressemblait à ses successeurs le C64 et le C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Der VIC-20 war ein 8-Bit-Personalcomputer mit 5 kB RAM (davon 3,5 kB für BASIC-Anwendungen) und einer CPU, die auf einem MOS-6502-Prozessor basierte. Er ähnelte seinen Nachfolgern C64 und C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>El VIC-20 es un ordenador personal de 8 bits con 5 kB de RAM (incluyendo 3,5 kB para aplicaciones BASIC) y una CPU basada en un procesador MOS 6502. Se parecía a sus sucesores el C64 y el C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il VIC-20 è un personal computer a 8 bit con 5 kB di RAM (di cui 3,5 kB per le applicazioni BASIC) e una CPU basata su un processore MOS 6502. Assomigliava ai suoi successori, il C64 e il C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>VIC-20は、5kBのRAM（うち3.5kBはBASICアプリケーション用）とMOS 6502プロセッサをベースにしたCPUを搭載した8ビットパーソナルコンピュータです。後継機のC64やC16に似ている。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De VIC-20 is een 8-bit personal computer met 5 kB RAM (waarvan 3,5 kB voor BASIC-toepassingen) en een CPU gebaseerd op een MOS 6502 processor. Hij leek op zijn opvolgers de C64 en C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>VIC-20 to 8-bitowy komputer osobisty wyposażony w 5 kB pamięci RAM (w tym 3,5 kB na aplikacje BASIC) i procesor oparty na układzie MOS 6502. Przypominał on swoich następców C64 i C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>O VIC-20 é um computador pessoal de 8 bits com 5 kB de RAM (incluindo 3,5 kB para aplicações BASIC) e uma CPU baseada num processador MOS 6502. Parecia os seus sucessores, o C64 e o C16.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>VIC-20 - это 8-битный персональный компьютер с 5 кБ оперативной памяти (включая 3,5 кБ для приложений BASIC) и центральным процессором на базе процессора MOS 6502. Он был похож на своих преемников C64 и C16.</text>
+</text>
+
+</view>
+</theme>

@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Pygame is a free cross-platform library that facilitates the development of video games with the Python programming language.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Pygame est une bibliothèque libre multiplate-forme qui facilite le développement de jeux vidéo avec le langage de programmation Python.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Pygame ist eine plattformübergreifende freie Bibliothek, die die Entwicklung von Videospielen mit der Programmiersprache Python vereinfacht.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Pygame es una biblioteca multiplataforma gratuita que facilita el desarrollo de videojuegos con el lenguaje de programación Python.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Pygame è una libreria multipiattaforma gratuita che facilita lo sviluppo di videogiochi con il linguaggio di programmazione Python.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>Pygameは、Pythonプログラミング言語によるビデオゲームの開発を容易にする、無料のクロスプラットフォームライブラリです。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Pygame is een gratis cross-platform bibliotheek die de ontwikkeling van videogames met de programmeertaal Python vergemakkelijkt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Pygame to darmowa, międzyplatformowa biblioteka ułatwiająca tworzenie gier wideo za pomocą języka programowania Python.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Pygame é uma biblioteca livre de multi-plataforma que facilita o desenvolvimento de jogos de vídeo com a linguagem de programação Python.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Pygame - это бесплатная кроссплатформенная библиотека, которая облегчает разработку видеоигр с помощью языка программирования Python.</text>
+</text>
+
+</view>
+</theme>

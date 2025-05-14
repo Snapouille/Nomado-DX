@@ -1,0 +1,21 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Call your friend and play one of these games with the bonus of retroachivements set.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Appelez un ami et jouez à l'un de ces jeux avec le bonus et la joie de parcourir un set de retroachievements. A n'en pas doûter des souvenirs de très bon moment de gaming qui resteront gravés à vie.</text>
+</text>
+
+</view>
+</theme>

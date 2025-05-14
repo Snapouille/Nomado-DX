@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+	
+	
+<view name="system">
+	
+	<!-- TEXT totaux des jeux qu'on masque -->
+	<text name="systemInfo" >
+		<visible>false</visible>
+	</text>
+
+    <carousel name="systemcarousel">
+		<maxLogoCount>1</maxLogoCount>
+		<type>horizontal</type>
+		<defaultTransition>instant</defaultTransition> 
+		<pos>0.04 -0.242</pos>
+		<pos ifHelpPrompts="false">0.04 -0.22</pos>
+		<size>0.34 1.435</size>
+		<color>00000000</color>
+		<colorEnd>00000000</colorEnd>
+        <logoSize>0.27 0.22</logoSize>
+    </carousel>
+				
+</view>
+	
+		
+</theme>

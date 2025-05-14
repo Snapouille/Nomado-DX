@@ -1,0 +1,71 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>Automatic Game Collection. 
+You felt like a little fight ? 
+You are at the right place :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>Collection automatique.
+Vous aviez envie d'un petit coup de castagne ? Vous êtes au bon endroit :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Automatic Game Collection.
+Sie hatten Lust auf einen kleinen Kampf? 
+Dann sind Sie hier richtig :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>Automatic Game Collection.
+¿Tienes ganas de pelea? 
+Has venido al lugar adecuado :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Automatic Game Collection.
+Avete voglia di litigare un po'? 
+Siete nel posto giusto :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>オートゲーマーリスト。ちょっと戦いたい気分？あなたは正しい場所に来ている :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>Automatic Game Collection.
+Heb je zin in een robbertje vechten? 
+Dan ben je op de juiste plaats :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>Automatic Game Collection.
+Miałeś ochotę na małą walkę? 
+Trafiłeś w odpowiednie miejsce :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>Lista automática de jogos. 
+Apeteceu-lhe um pouco de luta? 
+Veio ao lugar certo :)</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>Автоматический геймлист. 
+Вам захотелось немного подраться? 
+Вы пришли по адресу :)</text>
+</text>
+
+</view>
+</theme>
+

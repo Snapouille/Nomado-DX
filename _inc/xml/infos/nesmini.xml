@@ -1,0 +1,53 @@
+<!--
+Theme: Animatix-DX for Retrobat / Batocera / Emuelec
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+originally based on: "carbon"
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<text name="system_description" extra="true">
+<text>The NES Classic Edition is a video game console that emulates the Nintendo Entertainment System (NES). Aesthetically, the console is a miniature replica of the NES, and it includes a static library of 30 games integrated from the licensed NES library, supporting save states for each.</text>
+</text>
+
+<text name="system_description" extra="true" lang="fr">
+<text>La NES Classic Edition est une console de jeu vidéo qui émule la Nintendo Entertainment System (NES). Esthétiquement, la console est une réplique miniature de la NES, et elle comprend une bibliothèque statique de 30 jeux intégrés de la bibliothèque NES sous licence, prenant en charge les états de sauvegarde pour chacun d'eux.</text>
+</text>
+
+<text name="system_description" extra="true" lang="de">
+<text>Die NES Classic Edition ist eine Videospielkonsole, die dem Nintendo Entertainment System (NES) nachempfunden ist. Ästhetisch ist die Konsole eine Miniaturnachbildung des NES, und sie enthält eine statische Bibliothek von 30 integrierten Spielen aus der lizenzierten NES-Bibliothek, die Speicherstände für jedes Spiel unterstützt.</text>
+</text>
+
+<text name="system_description" extra="true" lang="es">
+<text>La NES Classic Edition es una videoconsola que emula la Nintendo Entertainment System (NES). Estéticamente, la consola es una réplica en miniatura de la NES, e incluye una biblioteca estática de 30 juegos integrados de la biblioteca de NES con licencia, con soporte para guardar estados para cada uno.</text>
+</text>
+
+<text name="system_description" extra="true" lang="it">
+<text>Il NES Classic Edition è una console per videogiochi che emula il Nintendo Entertainment System (NES). Esteticamente, la console è una replica in miniatura del NES e include una libreria statica di 30 giochi integrati dalla libreria NES su licenza, con il supporto di stati di salvataggio per ciascuno di essi.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ja">
+<text>NES Classic Editionは、Nintendo Entertainment System（NES）をエミュレートしたビデオゲーム機である。外観はファミコンのミニチュアレプリカで、ファミコンのライセンスライブラリから統合された30本のゲームを静的ライブラリとして収録しており、それぞれのセーブステートにも対応しています。</text>
+</text>
+
+<text name="system_description" extra="true" lang="nl">
+<text>De NES Classic Edition is een spelconsole die het Nintendo Entertainment System (NES) emuleert. Esthetisch gezien is de console een miniatuurreplica van de NES, en hij bevat een statische bibliotheek van 30 geïntegreerde spellen uit de gelicentieerde NES-bibliotheek, met ondersteuning van save states voor elk daarvan.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pl">
+<text>NES Classic Edition to konsola do gier wideo, która emuluje Nintendo Entertainment System (NES). Estetycznie, konsola jest miniaturową repliką NES, i zawiera statyczną bibliotekę 30 gier zintegrowanych z licencjonowaną biblioteką NES, obsługującą stany zapisu dla każdego.</text>
+</text>
+
+<text name="system_description" extra="true" lang="pt">
+<text>A NES Classic Edition é uma consola de videojogos que emula o Sistema de Entretenimento Nintendo (NES). Esteticamente, a consola é uma réplica em miniatura da NES, e inclui uma biblioteca estática de 30 jogos integrados a partir da biblioteca licenciada da NES, suportando estados de salvaguarda para cada um.</text>
+</text>
+
+<text name="system_description" extra="true" lang="ru">
+<text>NES Classic Edition - это игровая консоль, эмулирующая Nintendo Entertainment System (NES). Эстетически консоль представляет собой миниатюрную копию NES и включает статическую библиотеку из 30 игр, интегрированных из лицензионной библиотеки NES, с поддержкой сохранений для каждой из них.</text>
+</text>
+
+</view>
+</theme>

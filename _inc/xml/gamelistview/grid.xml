@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+		<corners>8 * ${screen.height} / 1080</corners>
+		<borderFrame>${themePath}/art/framewsel.png</borderFrame>
+		<grid.itemspacing.px>12 * ${screen.height} / 1080</grid.itemspacing.px>
+		<grid.paddingtop>0.04</grid.paddingtop>
+	</variables>
+	
+	<view name="grid">
+	
+		<text name="mySystemInfo" extra="true">
+			<text>{game:name}</text>
+			<origin>0.5 0.5</origin>
+			<size>0.8 0.1</size>
+			<pos>0.43 0.021</pos>
+			<alignment>left</alignment>
+			<color>${secondaryColor}</color>
+			<fontSize>${fontSizeHeader}</fontSize>
+			<fontPath>${fontPath}</fontPath>
+			<zIndex>5001</zIndex>
+		</text>
+
+		<imagegrid name="gamegrid">
+			<size>0.99 0.879</size>
+			<pos>0.005 0.06</pos>
+			<pos ifHelpPrompts="false">0.005 0.08</pos>	
+			<autoLayout>3 2</autoLayout>
+			<autoLayout if="{screen.ratio} == '1/1'">3 3</autoLayout>
+			<autoLayout if="{screen.ratio} == '16/9'">4 3</autoLayout>
+			<!-- <cellProportion>1.5</cellProportion> -->
+		</imagegrid>
+
+		<imagegrid name="gamegrid">
+			<margin>${grid.itemspacing.px}</margin>
+			<padding>0.011 0.011 0.011 0.011</padding>
+			<animateSelection></animateSelection>
+			<showVideoAtDelay>1200</showVideoAtDelay>
+			<imageSource>image</imageSource>
+			<scrollbarColor>${secondaryColor}</scrollbarColor>
+			<scrollbarCorner>0.49</scrollbarCorner>
+			<scrollbarSize>0.005</scrollbarSize>
+			<scrollbarAlignment>right</scrollbarAlignment>
+			<autoLayoutSelectedZoom>1.04</autoLayoutSelectedZoom>
+
+		</imagegrid>
+
+		<gridtile name="default">
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<imageColor>FFFFFFFF</imageColor>
+			<imageSizeMode>minSize</imageSizeMode>
+			<imageSizeMode if="{system.name} == 'retrobat'">maxSize</imageSizeMode>
+			<backgroundEdgeColor>${tertiaryColor}</backgroundEdgeColor>
+			<backgroundCenterColor>${tertiaryColor}</backgroundCenterColor>
+			<padding>3 3</padding>
+
+			<image name="favoriteIndicator">
+				<pos>0.8 0</pos>
+				<maxSize>0.199 0.199</maxSize>
+				<visible>{game:favorite}</visible>
+				<horizontalAlignment>right</horizontalAlignment>
+				<path>./_inc/images/favorite.svg</path>
+				<color>808080</color>
+				<storyboard event="activate">
+					<animation property="color" from="${tertiaryColor}" to="${secondaryColor}" duration="150" mode="linear"/>
+				</storyboard>
+				<storyboard event="deactivate">
+					<animation property="color" from="${secondaryColor}" to="${tertiaryColor}" duration="150" mode="linear"/>
+				</storyboard>
+			</image>
+
+			<image name="saveStateIndicator">
+				<pos>0.8 0.799</pos>
+				<maxSize>0.199 0.199</maxSize>
+				<horizontalAlignment>right</horizontalAlignment>
+				<verticalAlignment>bottom</verticalAlignment>
+				<visible>{game:hasSaveState}</visible>
+				<path>./_inc/images/SaveState.svg</path>
+				<color>${tertiaryColor}</color>
+				<storyboard event="activate">
+					<animation property="color" from="${tertiaryColor}" to="${secondaryColor}" duration="150" mode="linear"/>
+				</storyboard>
+				<storyboard event="deactivate">
+					<animation property="color" from="${secondaryColor}" to="${tertiaryColor}" duration="150" mode="linear"/>
+				</storyboard>
+			</image>
+
+
+			<image name="ArtShade" extra="true">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<zIndex>2</zIndex>
+				<visible>true</visible>
+				<color>000000</color>
+				<opacity>0.4</opacity>
+				<path>./_inc/images/bg_color.png</path>
+				<storyboard event="activate">
+					<animation property="opacity" from="0.4" to="0" duration="150" mode="linear"/>
+				</storyboard>
+				<storyboard event="deactivate">
+					<animation property="opacity" from="0" to="0.4" duration="150" mode="linear"/>
+				</storyboard>
+				<scale>1.005</scale>
+				<zIndex>30</zIndex>
+			</image>
+		</gridtile>
+
+		<gridtile name="selected">
+			<backgroundEdgeColor>${secondaryColor}</backgroundEdgeColor>
+			<backgroundCenterColor>${secondaryColor}</backgroundCenterColor>
+			<imageColor>FFFFFFFF</imageColor>
+		</gridtile>
+		
+		
+		
+		
+		
+		
+		
+	<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
+		<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_playcount, md_lastplayed, md_gametime">
+			<origin>0.5 0.5</origin>	
+			<visible>true</visible>
+			<size>0.22 0.03</size>
+			<color>FFFFFF</color>
+			<alignment>right</alignment>
+			<fontPath>${themePath}/_inc/fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<x>0.875</x>
+		    <zIndex>5002</zIndex>
+			<opacity>0</opacity>
+			
+			<storyboard event="open">   
+				<animation property="opacity" to="1" 	begin="5500" duration="300" 	 mode="linear"/>
+			</storyboard>
+			<storyboard event="activateNext">     
+				<animation property="opacity" to="1" 	begin="5500" duration="300" 	 mode="linear"/>
+			</storyboard>
+			<storyboard event="activatePrev">     
+				<animation property="opacity" to="1" 	begin="5500" duration="300" 	 mode="linear"/>
+			</storyboard>      
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+		</text>
+		
+		<text name="md_lbl_playcount">
+			<y>0.69</y>
+			<y ifHelpPrompts="false">0.72</y>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+			<y>0.77</y>
+			<y ifHelpPrompts="false">0.80</y>
+		</text>
+		
+		<text name="md_lbl_gametime">
+			<y>0.86</y>
+			<y ifHelpPrompts="false">0.89</y>
+		</text>
+		
+		
+	<!-- METADATA -->
+		<text name="md_playcount, md_lastplayed, md_gametime">
+		   <fontSize>0.026</fontSize>
+		   <color>0066ff</color>
+		   <alignment>right</alignment>
+		   <size>0.2 0.03</size>
+		   <x>0.88</x>
+		</text>
+		
+		<text name="md_playcount">
+			<y>0.728</y>
+			<y ifHelpPrompts="false">0.758</y>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<y>0.808</y>
+			<y ifHelpPrompts="false">0.838</y>
+		</datetime>
+		
+		<text name="md_gametime">
+			<y>0.898</y>	
+			<y ifHelpPrompts="false">0.928</y>
+		</text>
+		
+		
+			
+			
+		
+		
+		
+	</view>
+</theme>

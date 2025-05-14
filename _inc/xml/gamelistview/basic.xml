@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="basic">
+  
+    <image name="systemLogo" extra="true">
+		<path>${themePath}/art/logos/${system.theme}.png</path>
+		<path>${themePath}/art/logos/${system.theme}.svg</path>
+		<path>${themePath}/art/logos/${system.theme}-${lang}.png</path>
+		<path ifSubset="artworkregion:usa">${themePath}/art/logos/us/${system.theme}.png</path>
+		<path ifSubset="artworkregion:japan">${themePath}/art/logos/jp/${system.theme}.png</path>
+		<linearSmooth>true</linearSmooth>
+		<pos>0.057 0.07</pos>									
+		<maxSize>0.353125 0.1083333</maxSize>
+		<verticalAlignment>center</verticalAlignment>
+   </image>
+   
+	<image name="controlers" extra="true">
+		<origin>0.5 0.5</origin>	
+		<maxSize>0.35 0.11</maxSize>									
+		<pos>1.205 0.125</pos>
+		<verticalAlignment>top</verticalAlignment>
+		<horizontalAlignment>right</horizontalAlignment>
+		<path>${themePath}/art/controllers/${system.theme}.png</path>
+		<path ifSubset="artworkregion:usa">${themePath}/art/controllers/us/${system.theme}.png</path>
+		<path ifSubset="artworkregion:japan">${themePath}/art/controllers/jp/${system.theme}.png</path>
+		<zIndex>50</zIndex>
+		<linearSmooth>true</linearSmooth>
+		<storyboard>
+			<animation property="offsetX" to="-0.4" begin="100" duration="500" mode="EaseOut"/>
+		</storyboard>
+	</image>
+	
+	<textlist name="gamelist">
+		<lines>11</lines>
+		<primaryColor>${tertiaryColor}</primaryColor>
+		<secondaryColor>${tertiaryColor}</secondaryColor>
+		<selectorColor>c0a767</selectorColor>
+		<selectedColor>${backgroundColor}</selectedColor>
+		<extraTextColor>606060</extraTextColor>		
+		<extraTextSelectedColor>0440ae</extraTextSelectedColor>
+		<forceUppercase>0</forceUppercase>
+		<horizontalMargin>0.00</horizontalMargin>
+		<fontSize>0.04</fontSize>
+		<scrollbarColor>96969620</scrollbarColor>
+		<scrollbarCorner>0.49</scrollbarCorner>
+		<scrollbarSize>0.0065</scrollbarSize>
+		<scrollbarAlignment>outerright</scrollbarAlignment>
+		<horizontalMargin>0.005</horizontalMargin>
+		<fontPath>${fontPath}</fontPath>
+		<pos>0.025 0.198</pos>
+		<size>0.945 0.717</size>
+		<alignment>center</alignment>
+	</textlist>
+	
+  </view>
+</theme>
