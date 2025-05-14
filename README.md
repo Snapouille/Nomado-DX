@@ -1,4 +1,4 @@
-![Nomado-DX alt](https://github.com/user-attachments/assets/b4490c11-b8d4-47fe-a82a-1378ef11879b)
+![Nomado-DX alt](https://github.com/user-attachments/assets/46aaa145-2fbc-471c-b37a-f99d24054380)
 
 
 Theme for Emulation Station compatible with
