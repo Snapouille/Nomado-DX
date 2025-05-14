@@ -6,7 +6,7 @@ Theme for Emulation Station compatible with
 - [RetroBat](https://www.retrobat.org/)
 - [Knulli](https://knulli.org/)
 
-**V 1.00 - (2025 05 xx)
+**V 1.00 - (2025 05 14)
 
 The priority for this theme was fluidity, but also legibility on small and tiny screens.
 
