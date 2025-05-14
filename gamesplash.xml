@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <include>./theme.xml</include>
+    <view name="splash">
+
+        <image name="background" visible="true">
+            <pos>0.5 0.5</pos>
+            <maxSize>1 1</maxSize>
+            <origin>0.5 0.5</origin>
+			<visible>false</visible>
+        </image>
+		
+		<image name="background_fanart" extra="true">
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<size>0 1</size>
+			<path>{game:fanart}</path>
+			<zIndex>1</zIndex>
+		</image>
+		
+		<image name="overlay-fanart" extra="true">
+			<path>${themePath}/art/overlay_fanart.png</path>
+			<origin>0.5 0.5</origin>
+			<size>2 2</size>
+			<zIndex>2</zIndex>
+		</image>
+		
+		<image name="bg_marquee" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.1</pos>
+			<maxSize>0.2 0.15</maxSize>
+			<path>{game:marquee}</path>
+			<zIndex>3</zIndex>
+		</image>
+	  
+        <text name="label">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.9</pos>
+			<visible>!exists({game:marquee})</visible>
+            <color>${secondaryColor}</color>
+            <forceUppercase>false</forceUppercase>
+            <fontPath>${fontPath}</fontPath>
+            <zIndex>500</zIndex>
+        </text>
+
+    </view>
+
+</theme>

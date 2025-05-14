@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+	<include>./theme.xml</include>    
+    <view name="splash">
+        <image name="background" visible="false"/>
+		
+        <image name="background_extra" extra="true">
+            <origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+            <maxSize>1 0.7</maxSize>
+            <zIndex>0</zIndex>
+            <path>./_inc/images/nomado-dx.jpg</path>
+        </image>
+
+        <text name="label">
+			<y>0.83</y>
+            <color>${secondaryColor}</color>
+            <forceUppercase>false</forceUppercase>
+            <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+            <zIndex>500</zIndex>
+        </text>
+
+		<image name="progressbar">
+			<origin>0 0</origin>
+			<pos>0.250 0.75</pos>
+			<rotation>0</rotation>
+			<rotationOrigin>1.1 1.6</rotationOrigin>
+			<color>${tertiaryColor}</color>
+		</image>        
+
+		<image name="progressbar:active">
+            <pos>0.250 0.75</pos>
+			<color>${secondaryColor}</color>
+			<colorEnd>${secondaryColor}</colorEnd>
+			<gradientType>vertical</gradientType>
+		</image>
+
+    </view>
+
+</theme>

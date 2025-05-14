@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Theme: Nomado-DX for Retrobat / Batocera / Knulli
+author: Snapouille
+license: creative commons CC-BY-NC-SA
+-->
+
+<theme defaultView="detailed">
+  <formatVersion>7</formatVersion>
+  
+  <variables>
+    <shadeStrength>0.3</shadeStrength>
+	<fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+	<fontSizeText>0.027</fontSizeText>
+	<fontSizeTextList>0.034</fontSizeTextList>
+	<fontSizeLabel>0.029</fontSizeLabel>
+	<fontSizeHeader>0.033</fontSizeHeader>        
+	<fontSizeFooter>0.035</fontSizeFooter>
+	
+	<systemViewName>System View</systemViewName>
+	<systemview.wheel>Wheel</systemview.wheel>
+	<systemview.grid>Grid</systemview.grid>
+	
+	<GridArtStyle>Art Style (Grid view)</GridArtStyle>
+	
+	<oneDelay>1s delay</oneDelay>
+	<twoDelay>2s delay</twoDelay>
+	<threeDelay>5s delay</threeDelay>
+	<dontPlay>Don't Play</dontPlay>
+	
+	<Colorway>Colorway</Colorway>
+	<extraDark>Dark</extraDark>
+	<dark>Light</dark>
+	<steamOs>Steam</steamOs>
+	
+	<GameNumber>Game</GameNumber>
+	<GamesNumber>Games</GamesNumber>
+	<GamesFavs>Favorites</GamesFavs>
+	<NumberPlayed>Played</NumberPlayed>	
+	<theme.mostplayed>Most played:</theme.mostplayed>	
+	<theme.lastPlayedDate>Last game on:</theme.lastPlayedDate>	
+	
+	
+	<bganima>Background Animation</bganima>
+	<zoomout>Zoom Out</zoomout>
+	<offset>Offset</offset>
+	<slidedown>Slide Down</slidedown>
+	<none>None</none>
+	
+	
+	<gameDescription>Games Description</gameDescription>
+	<systemDescription>Systems Description</systemDescription>
+	<show>Show</show>
+	<hide>Hide</hide>
+	
+	
+  </variables>
+  
+<!-- Language  -->
+	<include lang="fr">${themePath}/_inc/xml/lang/fr.xml</include>
+  
+<!-- Subset aspect ratio auto ou manuel -->
+	<!-- <subset name="aspect-ratio" displayName="Aspect Ratio"> -->
+      <!-- <include if="${screen.width} == '720' && ${screen.height} == '720'" name="720-square-auto" displayName="Automatic" /> -->
+      <!-- <include if="{screen.ratio} == '16/9'" name="16-9-auto" displayName="Automatic" /> -->
+      <!-- <include if="{screen.ratio} == '16/10'" name="16-10-auto" displayName="Automatic" /> -->
+      <!-- <include if="{screen.ratio} == '4/3'" name="4-3-auto" displayName="Automatic" /> -->
+      <!-- <include if="{screen.ratio} == '3/2'" name="3-2-auto" displayName="Automatic" /> -->
+      <!-- <include if="{screen.ratio} == '1/1'" name="1-1-auto" displayName="Automatic" /> -->
+      <!-- <include name="16-9" displayName="16:9" /> -->
+      <!-- <include name="16-10" displayName="16:10" /> -->
+      <!-- <include name="4-3" displayName="4:3" /> -->
+      <!-- <include name="3-2" displayName="3:2" /> -->
+      <!-- <include name="1-1" displayName="1:1" /> -->
+   <!-- </subset> -->
+   
+	<subset name="theme_information" displayName="Theme Information">
+		<include name="Show" displayName="${show}">./_inc/xml/infos/theme-info.xml</include>
+		<include name="Hide" displayName="${hide}"/>
+	</subset>
+	
+	<subset name="theme_version" displayName="Theme version">
+		<include name="version" displayName="V 1.0 - 2025 05 15" />
+	</subset>
+	
+<!-- Subset options for Regional Artwork and Logos -->
+	<subset name="artworkregion" displayName="${subset.region}">
+		<include name="europe" displayName="${eu}"/>
+		<include name="usa" displayName="${us}"/>
+		<include name="japan" displayName="${jp}"/>
+	</subset>
+	
+<!-- Subset options for System View -->
+	<subset name="SystemView" 	displayName="${systemViewName}">
+		<include name="wheel" 	displayName="${systemview.wheel}">./_inc/xml/systemview/wheel.xml</include>
+		<include name="grid"  	displayName="${systemview.grid}">./_inc/xml/systemview/grid.xml</include>
+		<include name="simple" 	displayName="${systemview.simple}">./_inc/xml/systemview/simple.xml</include>
+	</subset>
+		
+<!-- Subset options for Art Style when Grid View selected -->
+	<subset name="artstyle" 			displayName="${GridArtStyle}">
+		<include name="animatics" 		displayName="Animatics"/>
+		<include name="hardware" 		displayName="Hardware"/>
+		<include name="logos" 			displayName="Logos"/>
+	</subset>
+	
+<!-- Affichage des descriptions des systèmes-->
+	<subset name="systemDescription" displayName="${systemDescription}">
+		<include name="Show" displayName="${show}"/>
+		<include name="Hide" displayName="${hide}"/>
+	</subset>
+	
+<!-- Subset options for Background Animation in wheel and simple view -->
+	<subset name="bgAnima" 				displayName="${bganima}">
+		<include name="offset" 			displayName="${offset}"/>
+		<include name="slidedown" 		displayName="${slidedown}"/>
+		<include name="zoomout" 		displayName="${zoomout}"/>
+		<include name="nothing" 		displayName="${none}"/>
+	</subset>
+	
+<!-- Subset options for colorway choice -->
+	<subset name="colorway" 		displayName="${Colorway}">
+		<include name="extradark" 	displayName="${extraDark}">./_inc/colorway/extradark.xml</include>
+		<include name="dark" 		displayName="${dark}">./_inc/colorway/dark.xml</include>
+		<include name="steamos" 	displayName="${steamOs}">./_inc/colorway/steamos.xml</include>
+	</subset>
+
+
+<!-- Affichage des descriptions des jeux / developper / year-->
+	<subset name="gameDescription" displayName="${gameDescription}" appliesTo="detailed, grid">
+		<include name="Show" displayName="${show}"/>
+		<include name="Hide" displayName="${hide}"/>
+	</subset>
+	
+<!-- Subset options for video preview management -->
+	<subset name="playvideo" displayName="Video" appliesTo="detailed">
+		<include name="yes1s" 	displayName="${oneDelay}"/>
+		<include name="yes2s" 	displayName="${twoDelay}"/>
+		<include name="yes5s" 	displayName="${threeDelay}"/>
+		<include name="hide" 	displayName="${dontPlay}"/>
+	</subset>
+	
+  
+<!--  MENU Popup  -->
+  <view name="menu">
+ 
+    <menuText name="menutitle">
+      <fontSize>0.041</fontSize>
+      <fontPath>${fontPath}</fontPath>
+      <color>${secondaryColor}</color>
+    </menuText>
+  
+    <menuText name="menutext">
+      <fontSize>0.036</fontSize>
+      <fontSize if="{screen.ratio} == '16/9'">0.031</fontSize>
+      <fontPath>${fontPath}</fontPath>
+      <color>FFFFFF</color>
+      <separatorColor>282828</separatorColor>
+	  <selectorColor>1c9090</selectorColor>
+      <selectorColorEnd>2d6364</selectorColorEnd>
+      <selectedColor>${backgroundColor}</selectedColor>
+      <selectorGradientType>horizontal</selectorGradientType>
+    </menuText>
+	
+    <menuTextSmall name="menutextsmall">
+      <fontSize>0.026</fontSize>
+      <fontPath>${fontPath}</fontPath>
+      <color>${tertiaryColor}</color>
+    </menuTextSmall>
+  
+    <menuBackground name="menubg">
+      <color>${backgroundColor}</color>
+      <cornerSize>32 32</cornerSize>
+      <scrollbarColor>${secondaryColor}</scrollbarColor>
+      <scrollbarCorner>0.49</scrollbarCorner>
+      <scrollbarSize>0.0003</scrollbarSize>
+      <scrollbarAlignment>innerright</scrollbarAlignment>
+    </menuBackground>
+  
+    <menuText name="menufooter">
+      <fontSize>0.035</fontSize>
+      <fontPath>${fontPath}</fontPath>
+      <color>777777FF</color>
+    </menuText>
+  
+    <menuTextEdit name="menutextedit">
+      <inactive>./_inc/colorway/${colorSchemeName}_inactive.png</inactive>
+      <active>./_inc/colorway/${colorSchemeName}_active.png</active>
+    </menuTextEdit>
+
+    <menuGroup name="menugroup">
+      <fontSize>0.033</fontSize>
+      <fontPath>${fontPath}</fontPath>
+      <color>bf9f1c</color>
+      <backgroundColor>${backgroundColor}</backgroundColor>
+      <lineSpacing>2.5</lineSpacing>
+    </menuGroup>
+  </view>
+  
+  
+  
+  
+
+<!-- XML include -->
+	<include>./_inc/xml/systemview/common-system.xml</include>
+    <include>./_inc/xml/gamelistview/common-gamelist.xml</include>
+	<include>./_inc/xml/gamelistview/detailed.xml</include>
+	<include>./_inc/xml/gamelistview/grid.xml</include>
+	<include>./_inc/xml/gamelistview/basic.xml</include>
+	<include>./_inc/xml/infos/${system.theme}.xml</include>
+
+<!-- System view commun -->
+  <view name="system">
+  
+	<sound name="bgsound">
+		<path>./../zzz-DX-Music/${system.theme}.mp3</path>
+		<path>./../zzz-DX-Music/${system.theme}.ogg</path>
+		<path>./../es-theme-Animatics-DX-Music/${system.theme}.mp3</path>
+		<path>./../es-theme-Animatics-DX-Music/${system.theme}.ogg</path>
+		<path>./../es-theme-Animatics-DX-Music-master/es-theme-Animatics-DX-Music/${system.theme}.mp3</path>
+		<path>./../es-theme-Animatics-DX-Music-master/es-theme-Animatics-DX-Music/${system.theme}.ogg</path>
+		<!-- <path>./../../../es-theme-Animatics-DX-Music/${system.theme}.m3u</path> -->
+	</sound>		
+  
+	<image name="logo" extra="true">
+	  <path>${themePath}/art/logos/${system.theme}.png</path>
+	  <path>${themePath}/art/logos/${system.theme}.svg</path>
+	  <path>${themePath}/art/logos/${system.theme}-${lang}.png</path>
+	  <path ifSubset="artworkregion:usa">${themePath}/art/logos/us/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:japan">${themePath}/art/logos/jp/${system.theme}.png</path>
+	  <linearSmooth>true</linearSmooth>
+	</image>
+	
+	<!-- Infos du cartouche HAUT toujours visible sur les vues systèmes	 -->
+	<text name="systemInfoEx, systemInfoEx2, systemInfoEx3, systemInfoExNull" extra="true">
+		<origin>0.5 0.5</origin>									
+		<size>0.71 0.1</size>									
+		<pos>0.39 0.022</pos>									
+		<fontSize>0.03</fontSize>
+		<fontPath>${themePath}/_inc/fonts/Cabin-Bold.ttf</fontPath>
+		<alignment>left</alignment>
+		<color>FFFFFF</color>
+		<zIndex>5001</zIndex>
+		<visible>true</visible>  
+		<multiLine>false</multiLine>
+	</text>
+
+	<text name="systemInfoEx" extra="static">
+		<text>{system:total} ${GamesNumber}   |   {system:gamesPlayed} ${NumberPlayed}   |   {system:favorites} ${GamesFavs}</text>
+		<visible>{system:total} &gt; 0 ? 1 : 0</visible>
+	</text>
+
+	<text name="systemInfoEx2" extra="static">
+		<text>${theme.mostplayed} {system:mostPlayed}</text>
+		<opacity>0</opacity>
+		<color>f9ffa1</color>
+		<visible>{system:total} &gt; 0 ? 1 : 0</visible>
+	</text>
+
+	<text name="systemInfoEx3" extra="static">
+		<text>${theme.lastPlayedDate} {system:lastPlayedDate}</text>
+		<opacity>0</opacity>
+		<visible>{system:total} &gt; 0 ? 1 : 0</visible>
+	</text>
+
+	<text name="systemInfoExNull" extra="static">
+		<text>0 ${GameNumber}</text>
+		<visible>{system:total} == 0 ? 1 : 0</visible>
+	</text>
+
+	<control name="systemInfoEx">
+		<storyboard repeat="forever">
+			<animation property="opacity" from="1" to="0" 	begin="3000" 	duration="350" mode="easeOut" />
+			<animation property="offsetY" to="-0.02" 		begin="3000" 	duration="350" mode="easeOut" />
+			<animation property="opacity" from="0" to="1" 	begin="13000" 	duration="350" mode="easeIn" />
+			<animation property="offsetY" to="0" 			begin="13000" 	duration="350" mode="easeOut" />
+		</storyboard>
+	</control>
+
+	<control name="systemInfoEx2">
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="1" 	begin="3000" 	duration="350" mode="easeIn" />
+			<animation property="offsetY" from="0.02"		begin="3000" 	duration="350" mode="easeOut" />
+			<animation property="opacity" from="1" to="0" 	begin="8000" 	duration="350" mode="easeOut" />
+			<animation property="offsetY" to="0.02" 		begin="8000" 	duration="350" mode="easeIn" />
+			<animation property="opacity" to="0" 			begin="13000" 	duration="350" mode="easeOut" />
+		</storyboard>
+	</control>
+
+	<control name="systemInfoEx3">
+		<storyboard repeat="forever">
+			<animation property="opacity" from="0" to="1" 	begin="8000" 	duration="350" mode="easeIn" />
+			<animation property="offsetY" from="0.02" 		begin="8000" 	duration="350" mode="easeOut" />
+			<animation property="opacity" from="1" to="0" 	begin="13000" 	duration="350" mode="easeOut" />
+			<animation property="offsetY" to="0.02" 		begin="13000" 	duration="350" mode="easeIn" />
+		</storyboard>	
+	</control>
+  </view>
+  
+  
+<!-- All views commun -->
+  <view name="system,grid,detailed,basic">
+  
+	<!-- Bandeau du Cartouche Haut et Bas en black -->
+	<image name="cartouche_haut, cartouche_bas">
+		<path>${themePath}/_inc/images/bg_color.png</path>
+		<color>000000</color>
+		<zIndex>5000</zIndex>
+	</image>
+	
+	<!-- Bandeau du cartouche bas -->
+	<image name="cartouche_bas"  extra="true">
+		<visible ifHelpPrompts="false">false</visible>
+		<origin>0.5 0.5</origin>									
+		<size>1 0.055</size>						
+		<pos>0.5 0.975</pos>	
+	</image>
+	
+	<!-- Bandeau du cartouche haut -->
+	<image name="cartouche_haut"  extra="true">
+		<origin>0.5 0</origin>		
+		<size>1 0.07</size>						
+		<pos>0.5 -0.02</pos>	
+	</image>
+
+	<!-- Couleur du background -->
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <zIndex>2</zIndex>
+      <visible>true</visible>
+      <color>${backgroundColor}</color>
+      <path>./_inc/images/bg_color.png</path>
+    </image>
+
+	<!-- barre d'aide -->
+    <helpsystem name="help">
+      <fontSize>${fontSizeFooter}</fontSize>
+      <pos>0.012 0.957</pos>
+      <size>0.3 0.07</size>
+      <textColor>${secondaryColor}</textColor>
+      <iconColor>${secondaryColor}</iconColor>
+      <fontPath>${fontPath}</fontPath>
+      <iconA>:/help/button_a.svg</iconA>
+      <iconB>:/help/button_b.svg</iconB>
+      <iconX>:/help/button_x.svg</iconX>
+      <iconY>:/help/button_y.svg</iconY>
+    </helpsystem>
+  </view>
+
+
+  <view name="screen">
+    <batteryIndicator name="batteryIndicator">
+      <visible>false</visible>
+    </batteryIndicator>
+    <text name="clock">
+      <visible>false</visible>
+    </text>
+
+    <controllerActivity name="controllerActivity">
+		<visible>false</visible>
+    </controllerActivity>
+
+    <stackpanel name="system-indicators" extra="true">
+      <visible>true</visible>
+      <h>${fontSizeHeader}</h>
+      <size>0.3 0.1</size>
+      <pos>0.684 0.007</pos>
+      <orientation>horizontal</orientation>
+      <separator>6</separator>
+      <horizontalAlignment>right</horizontalAlignment>
+      <reverse>true</reverse>
+      <zIndex>55</zIndex>
+      <clock name="system-clock" extra="true">
+        <color>${secondaryColor}</color>
+        <fontSize>${fontSizeHeader}</fontSize>
+        <fontPath>${fontPath}</fontPath>
+        <lineSpacing>1</lineSpacing>
+      </clock>
+      <batteryText name="system-battery-text" extra="true">
+        <color>${secondaryColor}</color>
+        <fontSize>${fontSizeHeader}</fontSize>
+        <fontPath>${fontPath}</fontPath>
+        <lineSpacing>1</lineSpacing>
+      </batteryText>
+      <batteryIcon name="system-battery-icon" extra="true">
+        <maxSize>1 1</maxSize>
+        <color>${secondaryColor}</color>
+        <full>./_inc/images/battery-icon-100.svg</full>
+        <at75>./_inc/images/battery-icon-75.svg</at75>
+        <at50>./_inc/images/battery-icon-50.svg</at50>
+        <at25>./_inc/images/battery-icon-25.svg</at25>
+        <empty>./_inc/images/battery-icon-0.svg</empty>
+        <incharge>./_inc/images/battery-icon-charging.svg</incharge>
+        <lineSpacing>1</lineSpacing>
+      </batteryIcon>
+      <networkIcon name="system-network-icon" extra="true">
+        <maxSize>1 1</maxSize>
+        <color>1face0</color>
+        <networkIcon>./_inc/images/network-icon-on.svg</networkIcon>
+        <planemodeIcon>./_inc/images/network-icon-off.svg</planemodeIcon>
+        <lineSpacing>1</lineSpacing>
+      </networkIcon>
+    </stackpanel>
+	
+  </view>
+
+</theme>
