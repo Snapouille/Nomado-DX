@@ -48,14 +48,17 @@ User-selectable display for the game descriptions
 
 ## Gamelist view : Grid
 ![2025-05-14 10_40_02-EmulationStation](https://github.com/user-attachments/assets/cc38fe47-e7ec-47a1-be54-bca0472cb806)
-
-
+  
+# Live in Action
+![live in action](https://github.com/user-attachments/assets/e691bc98-a8a1-44a2-8182-e135519fbae4)
+  
+  
 
 ### Big Thanks and credits to :
 - Darknior RVGM (large artworks dealer)
 - GeekRhapsody (grid view inspiration)
-
-
+  
+  
 ### License :
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
