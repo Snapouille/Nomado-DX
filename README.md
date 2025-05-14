@@ -1,4 +1,4 @@
-LOGO NOMADO
+![nomado logo](https://github.com/user-attachments/assets/31df5ca3-db24-4102-9b40-944248f6e5d6)
 
 
 Theme for Emulation Station compatible with
@@ -26,25 +26,28 @@ https://github.com/Snapouille/es-theme-Animatics-DX-Music
 # System View
 
 ## System View Animatics
+![pr1](https://github.com/user-attachments/assets/32723bf6-55dd-4a1c-91dd-5d51b15de7b3)
 
 
 ## System View Grid
+![pr2](https://github.com/user-attachments/assets/df70f6ce-558f-4bda-9da2-7e589a08e202)
 
 
 ## System View Logos
+![pr3](https://github.com/user-attachments/assets/001b0e43-350d-45b3-8adc-6de62b336cc6)
 
 
 
 # Gamelist View
 
 ## Gamelist view : Detailed
+![pr4](https://github.com/user-attachments/assets/332ecb60-0c05-45d2-91fe-c7a90060d63a)
+
+![pr5](https://github.com/user-attachments/assets/e81ca17b-a8d0-40c8-8dd8-9209c0cb0c6a)
 
 
 ## Gamelist view : Grid
-
-
-## Gamelist view : Basic
-
+![2025-05-14 10_40_02-EmulationStation](https://github.com/user-attachments/assets/cc38fe47-e7ec-47a1-be54-bca0472cb806)
 
 
 
