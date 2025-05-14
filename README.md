@@ -1,4 +1,4 @@
-![nomado logo](https://github.com/user-attachments/assets/31df5ca3-db24-4102-9b40-944248f6e5d6)
+![nomado logo alt](https://github.com/user-attachments/assets/ad95ffb7-1d51-49dc-a76d-f5e1efd1523f)
 
 
 Theme for Emulation Station compatible with
