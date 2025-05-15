@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   
-  <view name="detailed,grid,gamecarousel,basic">
+  <view name="detailed,grid,gamecarousel">
   
 	<!-- Cadre pour description -->
 	
@@ -78,9 +78,6 @@
 			<autoScroll>vertical</autoScroll>
 			<lineSpacing>1.3</lineSpacing>
 		</text>
-			
-			
-			
 			
 	<!-- Cadre pour developper year qui vient du bas -->
 		
@@ -216,6 +213,139 @@
 	</text>
 	
 	<datetime name="md_releasedate">
+		<visible ifSubset="gameDescription:Hide">false</visible>
+		<visible if="{system.theme} == 'library' || {system.theme} == 'imageviewer'">false</visible>
+	</datetime>
+		
+  </view>
+  
+  
+<!-- ------------------------------------------------------------------------------------------------------ -->
+  
+  <view name="grid,gamecarousel">
+  
+	<!-- Nom du jeu dans le cartouche en haut -->
+		<text name="gameInfo" extra="true">
+			<text>{game:name}</text>
+			<origin>0.5 0.5</origin>
+			<size>0.555 0.1</size>
+			<pos>0.29 0.021</pos>
+			<alignment>left</alignment>
+			<singleLineScroll>true</singleLineScroll>
+			<multiLine>false</multiLine>
+			<color>${secondaryColor}</color>
+			<fontSize>${fontSizeHeader}</fontSize>
+			<fontPath>${fontPath}</fontPath>
+			<zIndex>5001</zIndex>
+		</text>
+		
+	<!-- icones SaveState / Manuel / RA	 -->
+	<image name="md_savestate">
+		<x>0.64</x>									
+		<path>${themePath}/_inc/images/icon-savestate.png</path>
+	</image>
+	
+	<image name="md_manual">
+		<x>0.685</x>									
+		<x if="{screen.ratio} == '16/9'">0.67</x>									
+		<path>${themePath}/_inc/images/icon-manual.png</path>
+	</image>
+	
+	<image name="md_cheevos">
+		<x>0.73</x>									
+		<x if="{screen.ratio} == '16/9'">0.70</x>									
+		<path>${themePath}/_inc/images/icon-contest.png</path>		
+	</image>
+	
+	<image name="md_manual, md_savestate, md_cheevos">
+		<origin>0.5 0.5</origin>				
+		<maxSize>0.078125 0.1041667</maxSize>									
+		<scale>0.4</scale>
+		<scale if="{screen.ratio} == '4/3'">0.44</scale>
+		<scale if="{screen.ratio} == '1/1'">0.47</scale>
+		<y>0.025</y>
+		<zIndex>5001</zIndex>
+	</image>
+
+
+	<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
+		<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_playcount, md_lastplayed, md_gametime">
+			<origin>0.5 0.5</origin>	
+			<visible>true</visible>
+			<size>0.22 0.03</size>
+			<color>FFFFFF</color>
+			<alignment>right</alignment>
+			<fontPath>${themePath}/_inc/fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<x>0.875</x>
+		    <zIndex>5005</zIndex>
+			<opacity>0</opacity>
+			
+			<storyboard event="open">   
+				<animation property="opacity" to="1" 	begin="5500" duration="300" 	 mode="linear"/>
+			</storyboard>
+			<storyboard event="activateNext">     
+				<animation property="opacity" to="1" 	begin="5500" duration="300" 	 mode="linear"/>
+			</storyboard>
+			<storyboard event="activatePrev">     
+				<animation property="opacity" to="1" 	begin="5500" duration="300" 	 mode="linear"/>
+			</storyboard>      
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+		</text>
+		
+		<text name="md_lbl_playcount">
+			<y>0.69</y>
+			<y ifHelpPrompts="false">0.72</y>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+			<y>0.77</y>
+			<y ifHelpPrompts="false">0.80</y>
+		</text>
+		
+		<text name="md_lbl_gametime">
+			<y>0.86</y>
+			<y ifHelpPrompts="false">0.89</y>
+		</text>
+		
+		
+	<!-- METADATA -->
+		<text name="md_playcount, md_lastplayed, md_gametime">
+		   <fontSize>0.026</fontSize>
+		   <color>0066ff</color>
+		   <alignment>right</alignment>
+		   <size>0.2 0.03</size>
+		   <x>0.88</x>
+		</text>
+		
+		<text name="md_playcount">
+			<y>0.728</y>
+			<y ifHelpPrompts="false">0.758</y>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<y>0.808</y>
+			<y ifHelpPrompts="false">0.838</y>
+		</datetime>
+		
+		<text name="md_gametime">
+			<y>0.898</y>	
+			<y ifHelpPrompts="false">0.928</y>
+		</text>
+		
+<!-- On masque tout si l'utilisateur à choisi Hide dans l'affichage des descriptions des jeux -->
+	
+	<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_playcount, md_gametime">
+		<visible ifSubset="gameDescription:Hide">false</visible>
+		<visible if="{system.theme} == 'library' || {system.theme} == 'imageviewer'">false</visible>
+	</text>
+	
+	<datetime name="md_lastplayed">
 		<visible ifSubset="gameDescription:Hide">false</visible>
 		<visible if="{system.theme} == 'library' || {system.theme} == 'imageviewer'">false</visible>
 	</datetime>

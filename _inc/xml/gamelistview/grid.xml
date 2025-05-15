@@ -11,18 +11,6 @@
 	
 	<view name="grid">
 	
-		<text name="mySystemInfo" extra="true">
-			<text>{game:name}</text>
-			<origin>0.5 0.5</origin>
-			<size>0.8 0.1</size>
-			<pos>0.43 0.021</pos>
-			<alignment>left</alignment>
-			<color>${secondaryColor}</color>
-			<fontSize>${fontSizeHeader}</fontSize>
-			<fontPath>${fontPath}</fontPath>
-			<zIndex>5001</zIndex>
-		</text>
-
 		<imagegrid name="gamegrid">
 			<size>0.99 0.879</size>
 			<pos>0.005 0.06</pos>
@@ -114,87 +102,6 @@
 			<imageColor>FFFFFFFF</imageColor>
 		</gridtile>
 		
-		
-		
-		
-		
-		
-		
-	<!-- LABEL des metadata (Nombre de parties, dernier jeu, ...) -->
-		<text name="md_lbl_playcount, md_lbl_lastplayed, md_lbl_gametime, md_playcount, md_lastplayed, md_gametime">
-			<origin>0.5 0.5</origin>	
-			<visible>true</visible>
-			<size>0.22 0.03</size>
-			<color>FFFFFF</color>
-			<alignment>right</alignment>
-			<fontPath>${themePath}/_inc/fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<x>0.875</x>
-		    <zIndex>5002</zIndex>
-			<opacity>0</opacity>
-			
-			<storyboard event="open">   
-				<animation property="opacity" to="1" 	begin="5500" duration="300" 	 mode="linear"/>
-			</storyboard>
-			<storyboard event="activateNext">     
-				<animation property="opacity" to="1" 	begin="5500" duration="300" 	 mode="linear"/>
-			</storyboard>
-			<storyboard event="activatePrev">     
-				<animation property="opacity" to="1" 	begin="5500" duration="300" 	 mode="linear"/>
-			</storyboard>      
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" duration="1" mode="linear"/>
-			</storyboard>
-		</text>
-		
-		<text name="md_lbl_playcount">
-			<y>0.69</y>
-			<y ifHelpPrompts="false">0.72</y>
-		</text>
-		
-		<text name="md_lbl_lastplayed">
-			<y>0.77</y>
-			<y ifHelpPrompts="false">0.80</y>
-		</text>
-		
-		<text name="md_lbl_gametime">
-			<y>0.86</y>
-			<y ifHelpPrompts="false">0.89</y>
-		</text>
-		
-		
-	<!-- METADATA -->
-		<text name="md_playcount, md_lastplayed, md_gametime">
-		   <fontSize>0.026</fontSize>
-		   <color>0066ff</color>
-		   <alignment>right</alignment>
-		   <size>0.2 0.03</size>
-		   <x>0.88</x>
-		</text>
-		
-		<text name="md_playcount">
-			<y>0.728</y>
-			<y ifHelpPrompts="false">0.758</y>
-		</text>
-		
-		<datetime name="md_lastplayed">
-			<y>0.808</y>
-			<y ifHelpPrompts="false">0.838</y>
-		</datetime>
-		
-		<text name="md_gametime">
-			<y>0.898</y>	
-			<y ifHelpPrompts="false">0.928</y>
-		</text>
-		
-		
-			
-			
-		
-		
-		
 	</view>
+	
 </theme>

@@ -69,28 +69,6 @@
 			<zIndex>51</zIndex>		
 		</video>
 		
-		
-	<!-- LABEL et date du temps de jeu -->
-		<text name="md_lbl_gametime, md_gametime">
-			<origin>0.5 0.5</origin>
-			<fontPath>${fontPath}</fontPath>
-			<fontSize>0.025</fontSize>
-		    <zIndex>5005</zIndex>
-			<size>0.22 0.03</size>
-		</text>
-		
-		<text name="md_lbl_gametime">
-			<color>C0C0C0</color>
-			<alignment>right</alignment>
-			<pos>0.06 0.023</pos>
-		</text>
-		
-		<text name="md_gametime">
-			<color>FFFFFF</color>
-			<glowSize>0</glowSize>
-			<alignment>left</alignment>
-			<pos>0.283 0.023</pos>
-		</text>
-		
 	</view>
+
 </theme>
