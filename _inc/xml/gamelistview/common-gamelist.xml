@@ -84,22 +84,22 @@
 		<image name="frame-cadre-manufacturer, cadre-manufacturer" extra="true">
 			<path>${themePath}/art/white.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.725 0.755</pos>
-			<pos ifHelpPrompts="false">0.725 0.793</pos>
+			<pos>0.725 1.155</pos>
+			<pos ifHelpPrompts="false">0.725 1.193</pos>
 			<opacity>0</opacity>
 		    <linearSmooth>true</linearSmooth>
 			
 			<storyboard event="open">   
 				<animation property="opacity" to="1" 	begin="5300" duration="1" 	 mode="linear"/>
-				<animation property="offsetY" to="-0.2" begin="5300" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseInOut"/>
 			</storyboard>
 			<storyboard event="activateNext">     
 				<animation property="opacity" to="1" 	begin="5300" duration="1" 	 mode="linear"/>
-				<animation property="offsetY" to="-0.2" begin="5300" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseInOut"/>
 			</storyboard>
 			<storyboard event="activatePrev">     
 				<animation property="opacity" to="1" 	begin="5300" duration="1" 	 mode="linear"/>
-				<animation property="offsetY" to="-0.2" begin="5300" duration="500" mode="EaseOut"/>
+				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseInOut"/>
 			</storyboard>      
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -163,17 +163,17 @@
 			<zIndex>5002</zIndex>
 			<opacity>0</opacity>
 			
-			<storyboard event="open">   
+			<storyboard event="open">
 				<animation property="opacity" to="1" 	begin="5500" duration="1" 	 mode="linear"/>
-				<animation property="offsetY" to="-0.2" begin="5300" duration="500" mode="EaseInOut"/>
+				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseInOut"/>
 			</storyboard>
 			<storyboard event="activateNext">     
 				<animation property="opacity" to="1" 	begin="5500" duration="1" 	 mode="linear"/>
-				<animation property="offsetY" to="-0.2" begin="5300" duration="500" mode="EaseInOut"/>
+				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseInOut"/>
 			</storyboard>
 			<storyboard event="activatePrev">     
 				<animation property="opacity" to="1" 	begin="5500" duration="1" 	 mode="linear"/>
-				<animation property="offsetY" to="-0.2" begin="5300" duration="500" mode="EaseInOut"/>
+				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseInOut"/>
 			</storyboard>
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -186,16 +186,16 @@
 		<text name="separateLine">
 			<alignment>left</alignment>
 			<size>0.39 0.05</size>									
-			<pos>0.763 0.731</pos>
-			<pos ifHelpPrompts="false">0.763 0.769</pos>
+			<pos>0.763 1.131</pos>
+			<pos ifHelpPrompts="false">0.763 1.169</pos>
 			<text>|</text>
 		</text>
 		
 		<text name="developerName">
 			<alignment>left</alignment>
 			<size>0.369 0.05</size>									
-			<pos>0.770 0.732</pos>
-			<pos ifHelpPrompts="false">0.770 0.769</pos>
+			<pos>0.770 1.132</pos>
+			<pos ifHelpPrompts="false">0.770 1.169</pos>
 			<autoScroll>horizontal</autoScroll>
 			<text>{game:developer}</text>
 		</text>
