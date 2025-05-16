@@ -48,6 +48,7 @@
 			<tile>true</tile>
 			<origin>0 1</origin>
 			<pos>-0.4 0.92</pos>
+			<pos ifHelpPrompts="false">-0.4 0.95</pos>
 			<maxSize>0.35 0.55</maxSize>
 			<zIndex>52</zIndex>
 			

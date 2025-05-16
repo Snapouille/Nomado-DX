@@ -50,6 +50,7 @@
 		<horizontalMargin>0.005</horizontalMargin>
 		<fontPath>${fontPath}</fontPath>
 		<pos>0.025 0.198</pos>
+		<pos ifHelpPrompts="false">0.025 0.238</pos>
 		<size>0.945 0.717</size>
 		<alignment>center</alignment>
 	</textlist>
