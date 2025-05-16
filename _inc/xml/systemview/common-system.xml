@@ -14,7 +14,7 @@
 		<origin>1 0</origin>
 		<pos>1 0</pos>									
 		<linearSmooth>true</linearSmooth>
-		<path>${themePath}/art/background/${system.theme}.webp</path>
+		<path>${themePath}/art/background/${system.theme}.jpg</path>
 		<zIndex>3</zIndex>
 		<scale>1</scale>
 		

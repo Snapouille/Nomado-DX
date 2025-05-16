@@ -66,7 +66,7 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 	
 	<subset name="theme_version" displayName="Theme version">
-		<include name="version" displayName="V 1.02 - 2025 05 15" />
+		<include name="version" displayName="V 1.03 - 2025 05 16" />
 	</subset>
 	
 <!-- Subset options for Regional Artwork and Logos -->

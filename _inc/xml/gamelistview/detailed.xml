@@ -139,7 +139,19 @@
 		<delay ifSubset="playvideo:yes1s">1.5</delay>
 		<delay ifSubset="playvideo:yes2s">2.5</delay>
 		<delay ifSubset="playvideo:yes5s">5.5</delay>
-		<zIndex>10</zIndex>		
+		<zIndex>10</zIndex>	
+
+		<storyboard ifSubset="gameDescription:Show" event="open">		
+			<animation property="offsetY" to="-0.05"  		begin="5000" 	duration="500" mode="EaseOut"/>
+			<animation property="maxSize" to="0.48 0.40"  	begin="5000" 	duration="500" mode="EaseOut"/>
+		</storyboard>
+		<storyboard ifSubset="gameDescription:Show" event="activate">		
+			<animation property="offsetY" to="-0.05"  		begin="5000" 	duration="500" mode="EaseOut"/>
+			<animation property="maxSize" to="0.48 0.40"  	begin="5000" 	duration="500" mode="EaseOut"/>
+		</storyboard>
+		<storyboard ifSubset="gameDescription:Show" event="deactivate">		
+			<animation property="opacity" to="0" duration="1" mode="Linear"/>
+		</storyboard>
     </video>
 	
     <image name="GameImagePreview" extra="true" >

@@ -69,7 +69,7 @@
           <scale>0.963</scale>
         </image>
         <image name="SystemArt" extra="true">
-		  <path>${themePath}/art/background/{system:theme}.webp</path>
+		  <path>${themePath}/art/background/{system:theme}.jpg</path>
           <pos>0.5</pos>
           <origin>0.5</origin>
           <minSize>1 1</minSize>
@@ -169,7 +169,7 @@
           <scale>0.963</scale>
         </image>
         <image name="SystemArt" extra="true">
-		  <path>${themePath}/art/hardware/{system:theme}.webp</path>
+		  <path>${themePath}/art/hardware/{system:theme}.jpg</path>
           <pos>0.5</pos>
           <origin>0.5</origin>
           <minSize>1 1</minSize>
@@ -197,7 +197,7 @@
           <zIndex>30</zIndex>
         </image>
         <text name="fallbackText" alignment="center" multiLine="true">
-          <visible>!exists("${themePath}/art/hardware/" + {system:theme} + ".webp")</visible>
+          <visible>!exists("${themePath}/art/hardware/" + {system:theme} + ".jpg")</visible>
           <text>{system:fullName}</text>
           <fontSize>0.045</fontSize>
           <color>white</color>
