@@ -90,16 +90,16 @@
 		    <linearSmooth>true</linearSmooth>
 			
 			<storyboard event="open">   
-				<animation property="opacity" to="1" 	begin="5300" duration="1" 	 mode="linear"/>
-				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseInOut"/>
+				<animation property="opacity" to="1" 	begin="5600" duration="100" mode="linear"/>
+				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseOut"/>
 			</storyboard>
 			<storyboard event="activateNext">     
-				<animation property="opacity" to="1" 	begin="5300" duration="1" 	 mode="linear"/>
-				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseInOut"/>
+				<animation property="opacity" to="1" 	begin="5600" duration="100" mode="linear"/>
+				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseOut"/>
 			</storyboard>
 			<storyboard event="activatePrev">     
-				<animation property="opacity" to="1" 	begin="5300" duration="1" 	 mode="linear"/>
-				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseInOut"/>
+				<animation property="opacity" to="1" 	begin="5600" duration="100" mode="linear"/>
+				<animation property="offsetY" to="-0.6" begin="5300" duration="500" mode="EaseOut"/>
 			</storyboard>      
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -136,13 +136,13 @@
 			<opacity>0</opacity>
 			
 			<storyboard event="open">   
-				<animation property="opacity" to="1" 	begin="5600" duration="200"  mode="linear"/>
+				<animation property="opacity" to="1" 	begin="5700" duration="200"  mode="linear"/>
 			</storyboard>
 			<storyboard event="activateNext">     
-				<animation property="opacity" to="1" 	begin="5600" duration="200"  mode="linear"/>
+				<animation property="opacity" to="1" 	begin="5700" duration="200"  mode="linear"/>
 			</storyboard>
 			<storyboard event="activatePrev">     
-				<animation property="opacity" to="1" 	begin="5600" duration="200"  mode="linear"/>
+				<animation property="opacity" to="1" 	begin="5700" duration="200"  mode="linear"/>
 			</storyboard>      
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" duration="1" mode="linear"/>
