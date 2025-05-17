@@ -45,13 +45,21 @@ https://github.com/Snapouille/es-theme-Animatics-DX-Music
 User-selectable display for the game descriptions  
 ![pr5](https://github.com/user-attachments/assets/e81ca17b-a8d0-40c8-8dd8-9209c0cb0c6a)
   
+![2025-05-17 11_36_23-EmulationStation](https://github.com/user-attachments/assets/fb3f69c7-544a-41ba-a4ab-10d5f1a9f5d0)
+  
+  
 ## Gamelist view : GameCarousel
 User-selectable display of fanarts and/or fullscreen videos
 ![gamecarouselview](https://github.com/user-attachments/assets/c64f4a96-69d1-4813-b2f6-3e23d71fef5e)
-
+  
+![2025-05-17 11_35_29-EmulationStation](https://github.com/user-attachments/assets/ee691a67-c323-45da-bc86-4ceddb72c423)
+  
 
 ## Gamelist view : Grid
 ![2025-05-14 10_40_02-EmulationStation](https://github.com/user-attachments/assets/cc38fe47-e7ec-47a1-be54-bca0472cb806)
+  
+![2025-05-17 11_38_23-EmulationStation](https://github.com/user-attachments/assets/ed43bfd7-fd4a-401d-a869-d66970db113c)
+  
   
 # Live in Action
 ![live in action](https://github.com/user-attachments/assets/e691bc98-a8a1-44a2-8182-e135519fbae4)
