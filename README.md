@@ -56,7 +56,6 @@ User-selectable display of fanarts and/or fullscreen videos
   
 
 ## Gamelist view : Grid
-![2025-05-14 10_40_02-EmulationStation](https://github.com/user-attachments/assets/cc38fe47-e7ec-47a1-be54-bca0472cb806)
   
 ![2025-05-17 11_38_23-EmulationStation](https://github.com/user-attachments/assets/ed43bfd7-fd4a-401d-a869-d66970db113c)
   
