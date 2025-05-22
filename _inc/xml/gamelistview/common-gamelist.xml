@@ -373,13 +373,13 @@
 		<zIndex>5</zIndex>
 		
 			<storyboard event="open">   
-				<animation property="opacity" to="1" 	begin="300" duration="2000" 	 mode="linear"/>
+				<animation property="opacity" to="1" 	begin="300" duration="1500" 	 mode="linear"/>
 			</storyboard>
 			<storyboard event="activateNext">     
-				<animation property="opacity" to="1" 	begin="300" duration="2000" 	 mode="linear"/>
+				<animation property="opacity" to="1" 	begin="300" duration="1500" 	 mode="linear"/>
 			</storyboard>
 			<storyboard event="activatePrev">     
-				<animation property="opacity" to="1" 	begin="300" duration="2000" 	 mode="linear"/>
+				<animation property="opacity" to="1" 	begin="300" duration="1500" 	 mode="linear"/>
 			</storyboard>      
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -394,9 +394,26 @@
 		<origin>0.5 0.5</origin>
 		<pos>0.5 0.5</pos>
 		<minSize>1 1</minSize>
-		<opacity>0.5</opacity>
+		<opacity>0</opacity>
 		<zIndex>6</zIndex>
 		<path>${themePath}/_inc/images/overlay_gamelist_dark.png</path>
+		<visible>exists({game:fanart})</visible>	
+		
+			<storyboard event="open">   
+				<animation property="opacity" to="0.5" 	begin="300" duration="1500" 	 mode="linear"/>
+			</storyboard>
+			<storyboard event="activateNext">     
+				<animation property="opacity" to="0.5" 	begin="300" duration="1500" 	 mode="linear"/>
+			</storyboard>
+			<storyboard event="activatePrev">     
+				<animation property="opacity" to="0.5" 	begin="300" duration="1500" 	 mode="linear"/>
+			</storyboard>      
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
 	</image>
 
   </view>
