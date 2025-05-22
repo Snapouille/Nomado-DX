@@ -62,7 +62,11 @@ User-selectable display of fanarts and/or fullscreen videos
 
 
 # Fanarts display
+
+![2025-05-22 09_19_27-EmulationStation](https://github.com/user-attachments/assets/dea1b4a3-1f60-48b5-9eb4-dba044a366b7)
+  
 The user can choose to display the fan art in the background of the detailed and basic views. However, to maintain a fluid navigation system, I strongly advise you to set your fanarts to a height of 300 pixels max.  
+  
 ![Capture d'écran 2025-05-22 081022](https://github.com/user-attachments/assets/f8378ba9-29da-4510-ac7e-634fd3c402a0)
 
   
