@@ -3,6 +3,13 @@
   <formatVersion>7</formatVersion>
   
   <view name="detailed,grid,gamecarousel">
+		
+	<!-- au choix de l'utilisateur pour l'affichage des box en 2D ou 3D -->
+		<image name="GameThumbnail" extra="true">		
+			<path ifSubset="boxfrontDisplay:2d">firstfile({game:thumbnail},{game:image})</path>
+			<path ifSubset="boxfrontDisplay:3d">firstfile({game:boxart},{game:thumbnail},{game:image})</path>	 
+		</image>
+  
   
 	<!-- Cadre pour description -->
 	
@@ -351,5 +358,48 @@
 	</datetime>
 		
   </view>
+  
+  
+  
+  <view name="detailed, basic">
+  
+	<image name="GameFanart" ifSubset="fanartDisplay:Show" extra="true">
+		<path>{game:fanart}</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.5</pos>
+		<minSize>1 1</minSize>
+		<color>FFFFFF5F</color>
+		<opacity>0</opacity>
+		<zIndex>5</zIndex>
+		
+			<storyboard event="open">   
+				<animation property="opacity" to="1" 	begin="300" duration="2000" 	 mode="linear"/>
+			</storyboard>
+			<storyboard event="activateNext">     
+				<animation property="opacity" to="1" 	begin="300" duration="2000" 	 mode="linear"/>
+			</storyboard>
+			<storyboard event="activatePrev">     
+				<animation property="opacity" to="1" 	begin="300" duration="2000" 	 mode="linear"/>
+			</storyboard>      
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="1" mode="linear"/>
+			</storyboard>
+	</image>
+	
+	<!-- overlay pour assombrir un peu les fanarts et les videos en arrière plan -->
+	<image name="overlay_fanart" ifSubset="fanartDisplay:Show" extra="true">	
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.5</pos>
+		<minSize>1 1</minSize>
+		<opacity>0.5</opacity>
+		<zIndex>6</zIndex>
+		<path>${themePath}/_inc/images/overlay_gamelist_dark.png</path>
+	</image>
+
+  </view>
+  
   
 </theme>

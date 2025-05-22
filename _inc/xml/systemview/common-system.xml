@@ -23,7 +23,7 @@
 		</storyboard>
 		
 		<storyboard ifSubset="bgAnima:slidedown">
-			<animation property="offsetY" from="-0.05" to="0" begin="" duration="500" mode="EaseOut" />
+			<animation property="offsetY" from="-0.02" to="0" begin="" duration="500" mode="EaseOut" />
 		</storyboard>
 		
 		<storyboard ifSubset="bgAnima:zoomout">

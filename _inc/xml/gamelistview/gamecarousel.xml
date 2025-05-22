@@ -42,15 +42,24 @@
 			<zIndex>5</zIndex>
 		</image>
 		
+		<!-- overlay pour assombrir un peu les fanarts et les videos en arrière plan -->
+		<image name="overlay_fanart" extra="true">	
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<opacity>0.5</opacity>
+			<zIndex>52</zIndex>
+			<path>${themePath}/_inc/images/overlay_fanart_dark.png</path>
+		</image>
+		
 		<image name="GameThumbnail" extra="true">
-			<path>firstfile({game:thumbnail},{game:image})</path>
 			<linearSmooth>true</linearSmooth>
 			<tile>true</tile>
 			<origin>0 1</origin>
 			<pos>-0.4 0.92</pos>
 			<pos ifHelpPrompts="false">-0.4 0.95</pos>
 			<maxSize>0.35 0.55</maxSize>
-			<zIndex>52</zIndex>
+			<zIndex>53</zIndex>
 			
 			<storyboard event="open">
 				<animation property="offsetX" to="0.418" begin="300" duration="500" mode="EaseOut"/>

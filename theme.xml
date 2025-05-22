@@ -52,6 +52,10 @@ license: creative commons CC-BY-NC-SA
 	<show>Show</show>
 	<hide>Hide</hide>
 	
+	<boxfront.Display>Game boxes front</boxfront.Display>
+	<fanart.Display>Background Fanarts</fanart.Display>
+	
+	
   </variables>
   
 <!-- Language  -->
@@ -64,7 +68,7 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 	
 	<subset name="theme_version" displayName="Theme version">
-		<include name="version" displayName="V 1.03 - 2025 05 16" />
+		<include name="version" displayName="V 1.04 - 2025 05 22" />
 	</subset>
 	
 <!-- Subset options for Regional Artwork and Logos -->
@@ -109,10 +113,23 @@ license: creative commons CC-BY-NC-SA
 		<include name="steamos" 	displayName="${steamOs}">./_inc/colorway/steamos.xml</include>
 	</subset>
 
+
 <!-- Affichage des descriptions des jeux / developper / year-->
 	<subset name="gameDescription" displayName="${gameDescription}" appliesTo="detailed,grid,gamecarousel">
 		<include name="Show" displayName="${show}"/>
 		<include name="Hide" displayName="${hide}"/>
+	</subset>
+	
+<!-- Choix d'afficher les box en 2D ou 3D -->
+	<subset name="boxfrontDisplay" displayName="${boxfront.Display}" appliesTo="detailed,gamecarousel">
+			<include name="2d" displayName="${2d}"/>
+			<include name="3d" displayName="${3d}"/>
+	</subset>
+
+<!-- Choix d'afficher des fanarts dans la vue detailed -->
+	<subset name="fanartDisplay" displayName="${fanart.Display}" appliesTo="detailed, basic">
+			<include name="Hide" displayName="${hide}"/>
+			<include name="Show" displayName="${show}"/>
 	</subset>
 	
 <!-- Subset options for video preview management -->

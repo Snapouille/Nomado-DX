@@ -7,6 +7,7 @@
 	<image name="cartouche_haut">
 		<visible>false</visible>
 	</image>
+	
   
     <image name="systemLogo" extra="true">
 		<path>${themePath}/art/logos/${system.theme}.png</path>
@@ -44,7 +45,6 @@
     </textlist>
 
     <image name="GameThumbnail" extra="true">
-		<path>firstfile({game:thumbnail},{game:image})</path>
 		<origin>0.5 0.5</origin>									
 		<pos>0.735 0.48</pos>									
 		<maxSize>0.4296875 0.7416667</maxSize>									

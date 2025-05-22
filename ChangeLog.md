@@ -9,3 +9,8 @@
 - better thumbnail animation if game descritption is show in gamecarousel view
 - minimize game video if game descritption is show in detailed view
 - changed all webp image to jpg for better theme update
+  
+## V 1.04 - (22 05 2025) 
+- ability to display 2D (thumbnail) or 3D (boxart) boxes for gamecarousel and detailed views  
+- ability to display fanarts for detailed and basic views  
+- new fanarts and videos overlay for gamecarousel view  
