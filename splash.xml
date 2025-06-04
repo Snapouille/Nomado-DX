@@ -10,7 +10,15 @@
 			<pos>0.5 0.5</pos>
             <maxSize>1 0.7</maxSize>
             <zIndex>0</zIndex>
-            <path>./_inc/images/nomado-dx.jpg</path>
+            <path ifSubset="splashscreen:default">./_inc/images/splash/default.jpg</path>
+            <path ifSubset="splashscreen:knulli">./_inc/images/splash/knulli.jpg</path>
+            <path ifSubset="splashscreen:batocera">./_inc/images/splash/batocera.jpg</path>
+            <path ifSubset="splashscreen:retrobat">./_inc/images/splash/retrobat.jpg</path>
+            <path ifSubset="splashscreen:rocknix">./_inc/images/splash/rocknix.jpg</path>
+            <path ifSubset="splashscreen:anbernic">./_inc/images/splash/anbernic.jpg</path>
+            <path ifSubset="splashscreen:powkiddy">./_inc/images/splash/powkiddy.jpg</path>
+            <path ifSubset="splashscreen:miyoo">./_inc/images/splash/miyoo.jpg</path>
+            <path ifSubset="splashscreen:trimui">./_inc/images/splash/trimui.jpg</path>
         </image>
 
         <text name="label">

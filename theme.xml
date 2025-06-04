@@ -67,15 +67,28 @@ license: creative commons CC-BY-NC-SA
 		<include name="Hide" displayName="${hide}"/>
 	</subset>
 	
-	<subset name="theme_version" displayName="Theme version">
-		<include name="version" displayName="V 1.04 - 2025 05 22" />
+	<subset name="theme_version" 	displayName="Theme version">
+		<include name="version" 	displayName="V 1.05 - 2025 06 04" />
+	</subset>
+	
+<!-- Subset options for splashscreen Logos -->
+	<subset name="splashscreen"		displayName="splashscreen">
+		<include name="default" 	displayName="default" />
+		<include name="knulli" 		displayName="knulli" />
+		<include name="batocera"	displayName="batocera" />
+		<include name="retrobat" 	displayName="retrobat" />
+		<include name="rocknix" 	displayName="rocknix" />
+		<include name="anbernic" 	displayName="anbernic" />
+		<include name="powkiddy" 	displayName="powkiddy" />
+		<include name="miyoo" 		displayName="miyoo" />
+		<include name="trimui" 		displayName="trimui" />
 	</subset>
 	
 <!-- Subset options for Regional Artwork and Logos -->
-	<subset name="artworkregion" displayName="${subset.region}">
-		<include name="europe" displayName="${eu}"/>
-		<include name="usa" displayName="${us}"/>
-		<include name="japan" displayName="${jp}"/>
+	<subset name="artworkregion" 	displayName="${subset.region}">
+		<include name="europe" 		displayName="${eu}"/>
+		<include name="usa" 		displayName="${us}"/>
+		<include name="japan" 		displayName="${jp}"/>
 	</subset>
 	
 <!-- Subset options for System View -->
@@ -86,10 +99,10 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 		
 <!-- Subset options for Art Style when Grid View selected -->
-	<subset name="artstyle" 			displayName="${GridArtStyle}">
-		<include name="animatics" 		displayName="Animatics"/>
-		<include name="hardware" 		displayName="Hardware"/>
-		<include name="logos" 			displayName="Logos"/>
+	<subset name="artstyle" 		displayName="${GridArtStyle}">
+		<include name="animatics" 	displayName="Animatics"/>
+		<include name="hardware" 	displayName="Hardware"/>
+		<include name="logos" 		displayName="Logos"/>
 	</subset>
 	
 <!-- Affichage des descriptions des systèmes-->
@@ -99,11 +112,11 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 	
 <!-- Subset options for Background Animation in wheel and simple view -->
-	<subset name="bgAnima" 				displayName="${bganima}">
-		<include name="slidedown" 		displayName="${slidedown}"/>
-		<include name="offset" 			displayName="${offset}"/>
-		<include name="zoomout" 		displayName="${zoomout}"/>
-		<include name="nothing" 		displayName="${none}"/>
+	<subset name="bgAnima" 			displayName="${bganima}">
+		<include name="slidedown" 	displayName="${slidedown}"/>
+		<include name="offset" 		displayName="${offset}"/>
+		<include name="zoomout" 	displayName="${zoomout}"/>
+		<include name="nothing" 	displayName="${none}"/>
 	</subset>
 	
 <!-- Subset options for colorway choice -->
@@ -133,7 +146,7 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 	
 <!-- Subset options for video preview management -->
-	<subset name="playvideo" displayName="Video" appliesTo="detailed,gamecarousel">
+	<subset name="playvideo" 	displayName="Video" appliesTo="detailed,gamecarousel">
 		<include name="yes1s" 	displayName="${oneDelay}"/>
 		<include name="yes2s" 	displayName="${twoDelay}"/>
 		<include name="yes5s" 	displayName="${threeDelay}"/>
