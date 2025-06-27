@@ -1,8 +1,8 @@
 ## V 1.06 - (2025 06 27) 
-- improve overall fluidity for the Animatics grid views and logos
-– added background selection for detailed and gamecarousel views (None, Fanart, Hardware, Theme)
-- detailed view: changed icon positions for manuals, savestates, and cheevos
-- added missing collection backgrounds
+- improve overall fluidity for the Animatics grid views and logos  
+– added background selection for detailed and gamecarousel views (None, Fanart, Hardware, Theme)  
+- detailed view: changed icon positions for manuals, savestates, and cheevos  
+- added missing collection backgrounds  
 
 ![2025-06-27 15_56_17-EmulationStation](https://github.com/user-attachments/assets/7d555b37-ccd9-464f-aa47-8136ed50dabb)
 
