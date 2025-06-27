@@ -68,7 +68,6 @@ User-selectable display of fanarts and/or fullscreen videos
 The user can choose to display the fanart of the game in the background of the detailed and gamecarousel views.  
 
 ![Warning](https://img.shields.io/badge/Important-Fanart%20height%20300px%20max-red)
-
 To maintain a **fluid navigation experience**, I strongly recommend setting your fanarts to a **maximum height of 300 pixels**.
 
   
