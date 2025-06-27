@@ -36,7 +36,7 @@
 	<zoomout>Zoom Arrière</zoomout>
 	<offset>Décallage</offset>
 	<slidedown>Glissement bas</slidedown>
-	<none>Aucune</none>
+	<none>Aucun</none>
 	
 	<gameDescription>Description des Jeux</gameDescription>
 	<systemDescription>Description des Systèmes</systemDescription>
@@ -44,8 +44,11 @@
 	<hide>Masquer</hide>
 	
 	<boxfront.Display>boîtes de jeu face avant</boxfront.Display>
-	<fanart.Display>Fanarts en arrière-plan</fanart.Display>
-
+	<background.Display>Affichage en arrière-plan</background.Display>
+	<fanart.bg>Fanart du Jeu</fanart.bg>
+	<hardware.bg>Hardware du système</hardware.bg>
+	<theme.bg>Arrière plan du thème</theme.bg>
+	
 <!-- <systemBackgroundName>Arrière-plan</systemBackgroundName> -->
 <!-- <systembackground.snap>Avatar animation</systembackground.snap> -->
 <!-- <systembackground.carboncontrol>Manettes fil de fer</systembackground.carboncontrol> -->
@@ -61,7 +64,6 @@
 <!-- <infoDetailed>Détaillées</infoDetailed> -->
 <!-- <totalGamesInfos>Total des jeux</totalGamesInfos> -->
 <!-- <subset.colorset>Jeux de couleurs</subset.colorset> -->
-<!-- <none>Aucun</none> -->
 <!-- <systemview.vertical>Vertical</systemview.vertical> -->
 <!-- <systemview.horizontal>Horizontal</systemview.horizontal> -->
 <!-- <systemview.wheel>Roue</systemview.wheel> -->

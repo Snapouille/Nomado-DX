@@ -33,24 +33,24 @@
 			<fontSize>0.05</fontSize>
 		</text>
 
-		<image name="GameFanart" extra="true">
-			<path>firstfile({game:fanart},{game:image})</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.5</pos>
-			<minSize>1 1</minSize>
-			<color>FFFFFF5F</color>
-			<zIndex>5</zIndex>
-		</image>
+		<!-- <image name="GameFanart" extra="true"> -->
+			<!-- <path>firstfile({game:fanart},{game:image})</path> -->
+			<!-- <origin>0.5 0.5</origin> -->
+			<!-- <pos>0.5 0.5</pos> -->
+			<!-- <minSize>1 1</minSize> -->
+			<!-- <color>FFFFFF5F</color> -->
+			<!-- <zIndex>5</zIndex> -->
+		<!-- </image> -->
 		
 		<!-- overlay pour assombrir un peu les fanarts et les videos en arrière plan -->
-		<image name="overlay_fanart" extra="true">	
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.5</pos>
-			<minSize>1 1</minSize>
-			<opacity>0.5</opacity>
-			<zIndex>52</zIndex>
-			<path>${themePath}/_inc/images/overlay_fanart_dark.png</path>
-		</image>
+		<!-- <image name="overlay_fanart" extra="true">	 -->
+			<!-- <origin>0.5 0.5</origin> -->
+			<!-- <pos>0.5 0.5</pos> -->
+			<!-- <minSize>1 1</minSize> -->
+			<!-- <opacity>0.5</opacity> -->
+			<!-- <zIndex>52</zIndex> -->
+			<!-- <path>${themePath}/_inc/images/overlay_fanart_dark.png</path> -->
+		<!-- </image> -->
 		
 		<image name="GameThumbnail" extra="true">
 			<linearSmooth>true</linearSmooth>

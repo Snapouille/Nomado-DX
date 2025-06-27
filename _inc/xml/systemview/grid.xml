@@ -69,7 +69,7 @@
           <scale>0.963</scale>
         </image>
         <image name="SystemArt" extra="true">
-		  <path>${themePath}/art/background/{system:theme}.jpg</path>
+		  <path>${themePath}/art/background-300px/{system:theme}.jpg</path>
           <pos>0.5</pos>
           <origin>0.5</origin>
           <minSize>1 1</minSize>
@@ -169,7 +169,10 @@
           <scale>0.963</scale>
         </image>
         <image name="SystemArt" extra="true">
-		  <path>${themePath}/art/hardware/{system:theme}.jpg</path>
+          <path>firstfile(
+			  "${themePath}/art/hardware/" + {system:theme} + "-${lang}" + ".jpg",
+			  "${themePath}/art/hardware/" + {system:theme} + ".jpg")
+		  </path>
           <pos>0.5</pos>
           <origin>0.5</origin>
           <minSize>1 1</minSize>

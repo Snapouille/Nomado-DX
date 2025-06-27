@@ -53,8 +53,10 @@ license: creative commons CC-BY-NC-SA
 	<hide>Hide</hide>
 	
 	<boxfront.Display>Game boxes front</boxfront.Display>
-	<fanart.Display>Background Fanarts</fanart.Display>
-	
+	<background.Display>Background display</background.Display>
+	<fanart.bg>Game Fanart</fanart.bg>
+	<hardware.bg>Hardware</hardware.bg>
+	<theme.bg>Theme Background</theme.bg>
 	
   </variables>
   
@@ -68,7 +70,7 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 	
 	<subset name="theme_version" 	displayName="Theme version">
-		<include name="version" 	displayName="V 1.05 - 2025 06 04" />
+		<include name="version" 	displayName="V 1.06 - 2025 06 27" />
 	</subset>
 	
 <!-- Subset options for splashscreen Logos -->
@@ -140,9 +142,11 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 
 <!-- Choix d'afficher des fanarts dans la vue detailed -->
-	<subset name="fanartDisplay" displayName="${fanart.Display}" appliesTo="detailed, basic">
-			<include name="Hide" displayName="${hide}"/>
-			<include name="Show" displayName="${show}"/>
+	<subset name="backgroundDisplay" 	displayName="${background.Display}" appliesTo="detailed, gamecarousel">
+			<include name="None" 		displayName="${none}"/>
+			<include name="fanart" 		displayName="${fanart.bg}"/>
+			<include name="hardware" 	displayName="${hardware.bg}"/>
+			<include name="theme" 		displayName="${theme.bg}"/>
 	</subset>
 	
 <!-- Subset options for video preview management -->

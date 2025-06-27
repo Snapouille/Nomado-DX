@@ -59,10 +59,25 @@
 	<image name="consoles">
 		<zIndex>52</zIndex>
 		<maxSize>0.36 0.24</maxSize>									
-		<pos>-0.755 0.233</pos>
-		<path>${themePath}/art/consoles/${system.theme}.png</path>
-		<path ifSubset="artworkregion:usa">${themePath}/art/consoles/us/${system.theme}.png</path>
-		<path ifSubset="artworkregion:japan">${themePath}/art/consoles/jp/${system.theme}.png</path>
+		<pos>-0.759 0.233</pos>
+		
+		<path>firstfile(
+              "${themePath}/art/consoles/" + {system:theme} + ".png", 
+              "${themePath}/art/logos/" + {system:theme} + ".png")
+		</path>
+		
+		<path ifSubset="artworkregion:usa">firstfile(
+              "${themePath}/art/consoles/us/" + {system:theme} + ".png", 
+              "${themePath}/art/consoles/" + {system:theme} + ".png", 
+              "${themePath}/art/logos/" + {system:theme} + ".png")
+		</path>
+		
+		<path ifSubset="artworkregion:japan">firstfile(
+              "${themePath}/art/consoles/jp/" + {system:theme} + ".png", 
+              "${themePath}/art/consoles/" + {system:theme} + ".png", 
+              "${themePath}/art/logos/" + {system:theme} + ".png")
+		</path>
+		
 	</image>
 	
 	<image name="frame-cadre-description">
