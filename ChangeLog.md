@@ -1,6 +1,6 @@
 ## V 1.06 - (2025 06 27) 
 - improve overall fluidity for the Animatics grid views and logos  
-– added background selection for detailed and gamecarousel views (None, Fanart, Hardware, Theme)  
+- added background selection for detailed and gamecarousel views (None, Fanart, Hardware, Theme)  
 - detailed view: changed icon positions for manuals, savestates, and cheevos  
 - added missing collection backgrounds  
 
