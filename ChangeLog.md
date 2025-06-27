@@ -31,7 +31,5 @@
 ## V 1.01 - (2025 05 14)  
 - add a gamecarousel gamelist view
 
+![2025-06-26 15_05_13-EmulationStation](https://github.com/user-attachments/assets/580908ff-82d8-4852-84c1-59fb65f20e30)
 
-
-
-  
