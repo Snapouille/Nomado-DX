@@ -4,6 +4,8 @@
 - detailed view: changed icon positions for manuals, savestates, and cheevos
 - added missing collection backgrounds
 
+![2025-06-27 15_56_17-EmulationStation](https://github.com/user-attachments/assets/7d555b37-ccd9-464f-aa47-8136ed50dabb)
+
 
 ## V 1.05 - (2025 06 04) 
 - choice of splashscreen logo (knulli, rocknix, batocera, retrobat, ...)
