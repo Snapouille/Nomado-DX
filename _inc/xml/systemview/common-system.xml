@@ -172,6 +172,38 @@
 		<text>${system.releaseYearOrNull}</text>		
 	</text>
 	
+	
+	
+<!-- Fond noir suivi de l'affichage du système en grand après 6 secondes-->
+	<image name="black-all" extra="true">
+		<path>${themePath}/art/white.png</path>
+		<origin>0.5 0.5</origin>
+		<color>000000</color>
+		<zIndex>44</zIndex>
+		<linearSmooth>true</linearSmooth>
+		<size>1 1</size>									
+		<pos>0.5 0.5</pos>
+		<opacity>0</opacity>
+		<storyboard>
+			<animation property="opacity" to="1" begin="5000" duration="2000" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	
+	<image name="BackgroundChoice" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.5</pos>
+		<minSize>1 1</minSize>
+		<zIndex>45</zIndex>
+		<path>${themePath}/art/background-hardware/${system.theme}.jpg</path>
+		<path if="${system.manufacturer} == 'Collections'">${themePath}/art/background/${system.theme}.jpg</path>
+		<opacity>0</opacity>
+		<storyboard>
+			<animation property="opacity" to="0.7" begin="5500" duration="2000" mode="linear"/>
+		</storyboard>
+	</image>
+	
+	
 <!-- On masque tout si l'utilisateur à choisi Hide dans l'affichage des descriptions systèmes -->
 	<image name="frame-cadre-consoles, cadre-consoles, consoles, frame-cadre-description, cadre-description, frame-cadre-manufacturer, cadre-manufacturer">
 		<visible ifSubset="systemDescription:Hide">false</visible>

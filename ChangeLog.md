@@ -1,5 +1,6 @@
 ## V 1.07 - (2025 06 29) 
 - hardware grid thumbnails readjustment
+- full-screen display of system hardware after six seconds in system views
 
 
 ## V 1.06 - (2025 06 27) 
