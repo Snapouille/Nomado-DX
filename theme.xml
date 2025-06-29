@@ -70,7 +70,7 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 	
 	<subset name="theme_version" 	displayName="Theme version">
-		<include name="version" 	displayName="V 1.06 - 2025 06 27" />
+		<include name="version" 	displayName="V 1.07 - 2025 06 29" />
 	</subset>
 	
 <!-- Subset options for splashscreen Logos -->

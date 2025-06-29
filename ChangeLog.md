@@ -1,3 +1,7 @@
+## V 1.07 - (2025 06 29) 
+- hardware grid thumbnails readjustment
+
+
 ## V 1.06 - (2025 06 27) 
 - improve overall fluidity for the Animatics grid views and logos  
 - added background selection for detailed and gamecarousel views (None, Fanart, Hardware, Theme)  
