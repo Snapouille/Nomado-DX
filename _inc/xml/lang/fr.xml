@@ -26,6 +26,8 @@
 	<extraDark>Foncé</extraDark>
 	<dark>Clair</dark>
 	<steamOs>Steam</steamOs>
+	
+	<subset.shader>Effets TV</subset.shader>
 
 	<GamesFavs>Favoris</GamesFavs>
 	<NumberPlayed>Joués</NumberPlayed>
@@ -84,7 +86,6 @@
 <!-- <animationsSubsetName>Animations de transition</animationsSubsetName> -->
 <!-- <helpSubsetName>Icônes d'aide</helpSubsetName> -->
 <!-- <colored>Colorés</colored> -->
-<!-- <subset.shader>Effets TV</subset.shader> -->
 <!-- <glowSubsetName>Sélection en Halo</glowSubsetName> -->
 <!-- <systemViewExInfos>Informations du système améliorées</systemViewExInfos> -->
 <!-- <dateFormat>%d/%m/%Y</dateFormat> -->

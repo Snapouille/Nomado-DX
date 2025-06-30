@@ -67,7 +67,6 @@
 	  </storyboard>
     </image>
 	
-	
 	<text name="gameRating"	extra="true">
 		<pos>0.8 0.875</pos>
 	    <pos ifHelpPrompts="false">0.8 0.905</pos>	
@@ -91,42 +90,6 @@
 	  </storyboard>
 	</text>
 	
-	<!-- <image name="md_savestate"> -->
-		<!-- <x>0.640</x>									 -->
-		<!-- <path>${themePath}/_inc/images/icon-savestate.png</path> -->
-	<!-- </image> -->
-	
-	<!-- <image name="md_manual"> -->
-		<!-- <x>0.685</x>									 -->
-		<!-- <path>${themePath}/_inc/images/icon-manual.png</path> -->
-	<!-- </image> -->
-	
-	<!-- <image name="md_cheevos"> -->
-		<!-- <x>0.73</x>									 -->
-		<!-- <path>${themePath}/_inc/images/icon-contest.png</path>		 -->
-	<!-- </image> -->
-	
-	<!-- <image name="md_manual, md_savestate, md_cheevos"> -->
-		<!-- <origin>0.5 0.5</origin>				 -->
-		<!-- <maxSize>0.078125 0.1041667</maxSize>									 -->
-		<!-- <scale>0.5</scale> -->
-		<!-- <y>0.905</y> -->
-		<!-- <y ifHelpPrompts="false">0.935</y> -->
-		<!-- <y if="{screen.ratio} == '1/1'">0.9</y>									 -->
-			<!-- <storyboard event="activate" ifSubset="playvideo:yes1s"> -->
-				<!-- <animation property="opacity"  to="0"   begin="1500" duration="100"  /> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="activate" ifSubset="playvideo:yes2s"> -->
-				<!-- <animation property="opacity"  to="0"   begin="2500" duration="100"  /> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="activate" ifSubset="playvideo:yes5s"> -->
-				<!-- <animation property="opacity"  to="0"   begin="5500" duration="100"  /> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="deactivate"> -->
-				<!-- <animation property="opacity" to="0" duration="10" /> -->
-			<!-- </storyboard> -->
-	<!-- </image> -->
-	
     <video name="GameVideo" extra="true">
 		<visible ifSubset="playvideo:hide">false</visible>
 		<path>{game:video}</path>
@@ -140,7 +103,7 @@
 		<delay ifSubset="playvideo:yes2s">2.5</delay>
 		<delay ifSubset="playvideo:yes5s">5.5</delay>
 		<zIndex>10</zIndex>	
-
+		
 		<storyboard ifSubset="gameDescription:Show" event="open">		
 			<animation property="offsetY" to="-0.05"  		begin="5000" 	duration="500" mode="EaseOut"/>
 			<animation property="maxSize" to="0.48 0.40"  	begin="5000" 	duration="500" mode="EaseOut"/>

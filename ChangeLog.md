@@ -1,3 +1,7 @@
+## V 1.08 - (2025 06 30) 
+- add CRT and Scanlines shader options
+
+
 ## V 1.07 - (2025 06 29) 
 - hardware grid thumbnails readjustment
 - full-screen display of system hardware after six seconds in system views
