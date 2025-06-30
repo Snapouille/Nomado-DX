@@ -66,8 +66,7 @@ User-selectable display of fanarts and/or fullscreen videos
 ![2025-06-27 16_57_22-EmulationStation](https://github.com/user-attachments/assets/503cce15-c84d-4e02-99a3-970de5b5d69d)
   
 ![Warning](https://img.shields.io/badge/Important-Fanart%20height%20300px%20max-red)  
-The user can choose to display the fanart of the game in the background of the detailed and gamecarousel views.  
-To maintain a **fluid navigation experience**, I strongly recommend setting your fanarts to a **maximum height of 300 pixels**.
+The user can choose to display the fanart of the game in the background of the detailed and gamecarousel views. To maintain a **fluid navigation experience**, I strongly recommend setting your fanarts to a **maximum height of 300 pixels**.
 
   
 ![Capture d'écran 2025-05-22 081022](https://github.com/user-attachments/assets/f8378ba9-29da-4510-ac7e-634fd3c402a0)
