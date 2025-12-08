@@ -72,7 +72,7 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 	
 	<subset name="theme_version" 	displayName="Theme version">
-		<include name="version" 	displayName="V 1.08 - 2025 06 30" />
+		<include name="version" 	displayName="V 1.09 - 2025 12 08" />
 	</subset>
 	
 <!-- Subset options for splashscreen Logos -->
@@ -233,13 +233,8 @@ license: creative commons CC-BY-NC-SA
 <!-- System view commun -->
   <view name="system">
 	<sound name="bgsound">
-		<path>./../zzz-DX-Music/${system.theme}.mp3</path>
-		<path>./../zzz-DX-Music/${system.theme}.ogg</path>
-		<path>./../es-theme-Animatics-DX-Music/${system.theme}.mp3</path>
-		<path>./../es-theme-Animatics-DX-Music/${system.theme}.ogg</path>
-		<path>./../es-theme-Animatics-DX-Music-master/es-theme-Animatics-DX-Music/${system.theme}.mp3</path>
-		<path>./../es-theme-Animatics-DX-Music-master/es-theme-Animatics-DX-Music/${system.theme}.ogg</path>
-		<!-- <path>./../../../es-theme-Animatics-DX-Music/${system.theme}.m3u</path> -->
+		<path>./../zzz-DX_Add-On/_inc/music/${system.theme}.mp3</path>
+		<path>./../zzz-DX_Add-On/_inc/music/${system.theme}.ogg</path>
 	</sound>		
   
 	<image name="logo" extra="true">
