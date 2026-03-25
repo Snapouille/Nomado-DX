@@ -10,11 +10,11 @@ originally based on: "carbon"
 <view name="system">
 
 <text name="system_description" extra="true">
-<text>The Master System is the competitor of the NES. It was released in 1985, under the name Sega Mark III in Japan. The console was redesigned and renamed the Master System before its launch in 1986 in North America. It was released under this name in most other territories, including Europe in 1986 and Brazil in 1987.</text>
+<text>The Sega Master System is the competitor of the Nintendo NES. It was released in 1985, under the name Sega Mark III in Japan. The console was redesigned and renamed the Master System before its launch in 1986 in North America. It was released under this name in most other territories, including Europe in 1986 and Brazil in 1987.</text>
 </text>
 
 <text name="system_description" extra="true" lang="fr">
-<text>La Master System est la concurrente de la NES. Elle sort en 1985, sous le nom Sega Mark III au Japon. La console est redessinée et rebaptisée Master System avant son lancement en 1986 en Amérique du Nord et Europe en 1986 et Brésil en 1987. La mascotte non officielle sera Alex Kidd qui sera détrônée un peu plus tard par un certain hérisson bleu.</text>
+<text>La Sega Master System est la concurrente de la NES de Nintendo. Elle sort en 1985, sous le nom Sega Mark III au Japon. La console est redessinée et rebaptisée Master System avant son lancement en 1986 en Amérique du Nord. Elle sort sous ce nom sur la plupart des autres territoires, dont l'Europe en 1986 et le Brésil en 1987. La mascotte non officielle sera Alex Kidd qui sera détrônée un peu plus tard par un certain hérisson bleu.</text>
 </text>
 
 <text name="system_description" extra="true" lang="de">

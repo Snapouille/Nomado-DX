@@ -97,7 +97,10 @@
 	<text name="system_description" extra="true">
 		<origin>0.5 0.5</origin>	
 		<fontPath>${themePath}/_inc/fonts/Cabin-Bold.ttf</fontPath>
-		<fontSize>0.033</fontSize>
+		<fontSize ifSubset="systemDescFontsize:auto">0.033</fontSize>
+		<fontSize ifSubset="systemDescFontsize:small">0.024</fontSize>
+		<fontSize ifSubset="systemDescFontsize:medium">0.033</fontSize>
+		<fontSize ifSubset="systemDescFontsize:large">0.045</fontSize>
 		<size>0.86 0.295</size>									
 		<pos>-0.512 0.763</pos>	
 		<pos ifHelpPrompts="false">-0.512 0.813</pos>

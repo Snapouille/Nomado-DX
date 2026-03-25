@@ -21,7 +21,14 @@
    </image>
 
     <textlist name="gamelist">
-		<lines>15</lines>
+		<lines ifSubset="gamelistFontsize:auto">15</lines>
+		<lines ifSubset="gamelistFontsize:small">17</lines>
+		<lines ifSubset="gamelistFontsize:medium">15</lines>
+		<lines ifSubset="gamelistFontsize:large">13</lines>
+		<fontSize ifSubset="gamelistFontsize:auto">0.034</fontSize>
+		<fontSize ifSubset="gamelistFontsize:small">0.024</fontSize>
+		<fontSize ifSubset="gamelistFontsize:medium">0.034</fontSize>
+		<fontSize ifSubset="gamelistFontsize:large">0.044</fontSize>
 		<primaryColor>${tertiaryColor}</primaryColor>
 		<secondaryColor>${tertiaryColor}</secondaryColor>
 		<selectorColor>c0a767</selectorColor>
@@ -35,7 +42,6 @@
 		<h ifHelpPrompts="false">0.84</h>
 		<alignment>left</alignment>
 		<horizontalMargin>0.00</horizontalMargin>
-		<fontSize>${fontSizeTextList}</fontSize>
 		<scrollbarColor>96969620</scrollbarColor>
 		<scrollbarCorner>0.49</scrollbarCorner>
 		<scrollbarSize>0.0065</scrollbarSize>

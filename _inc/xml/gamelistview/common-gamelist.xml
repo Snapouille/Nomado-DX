@@ -53,7 +53,10 @@
 		<text name="game_description" extra="true">
 			<origin>0.5 0.5</origin>	
 			<fontPath>${themePath}/_inc/fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.03</fontSize>
+			<fontSize ifSubset="gameDescFontsize:auto">0.03</fontSize>
+			<fontSize ifSubset="gameDescFontsize:small">0.024</fontSize>
+			<fontSize ifSubset="gameDescFontsize:medium">0.03</fontSize>
+			<fontSize ifSubset="gameDescFontsize:large">0.045</fontSize>
 			<color>FFFFFF</color>
 			<zIndex>5005</zIndex>
 			

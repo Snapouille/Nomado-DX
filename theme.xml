@@ -13,7 +13,7 @@ license: creative commons CC-BY-NC-SA
     <shadeStrength>0.3</shadeStrength>
 	<fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
 	<fontSizeText>0.027</fontSizeText>
-	<fontSizeTextList>0.034</fontSizeTextList>
+	<!-- <fontSizeTextList>0.034</fontSizeTextList> -->
 	<fontSizeLabel>0.029</fontSizeLabel>
 	<fontSizeHeader>0.033</fontSizeHeader>        
 	<fontSizeFooter>0.035</fontSizeFooter>
@@ -22,7 +22,7 @@ license: creative commons CC-BY-NC-SA
 	<systemview.wheel>Wheel</systemview.wheel>
 	<systemview.grid>Grid</systemview.grid>
 	
-	<GridArtStyle>Art Style (Grid view)</GridArtStyle>
+	<GridArtStyle>Grid Art Style</GridArtStyle>
 	
 	<oneDelay>1s delay</oneDelay>
 	<twoDelay>2s delay</twoDelay>
@@ -34,7 +34,7 @@ license: creative commons CC-BY-NC-SA
 	<dark>Light</dark>
 	<steamOs>Steam</steamOs>
 	
-	<subset.shader>Shader</subset.shader>
+	<subset.shader>Screen Filters</subset.shader>
 	
 	<GameNumber>Game</GameNumber>
 	<GamesNumber>Games</GamesNumber>
@@ -60,6 +60,11 @@ license: creative commons CC-BY-NC-SA
 	<hardware.bg>Hardware</hardware.bg>
 	<theme.bg>Theme Background</theme.bg>
 	
+	<system.Desc.Fontsize>Description Font Size</system.Desc.Fontsize>
+	<gamelist.Fontsize>Gamelist : Font Size</gamelist.Fontsize>
+	<game.Desc.Fontsize>Description : Font Size</game.Desc.Fontsize>
+	
+	
   </variables>
   
 <!-- Language  -->
@@ -72,7 +77,7 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 	
 	<subset name="theme_version" 	displayName="Theme version">
-		<include name="version" 	displayName="V 1.09 - 2025 12 08" />
+		<include name="version" 	displayName="V 1.10 - 2026 03 25" />
 	</subset>
 	
 <!-- Subset options for splashscreen Logos -->
@@ -103,7 +108,8 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 		
 <!-- Subset options for Art Style when Grid View selected -->
-	<subset name="artstyle" 		displayName="${GridArtStyle}">
+<!-- on affiche ces options seulement si l'utilisateur est sur systemview grid -->
+	<subset name="artstyle" 		ifSubset="SystemView:grid" 		displayName="${GridArtStyle}">
 		<include name="animatics" 	displayName="Animatics"/>
 		<include name="hardware" 	displayName="Hardware"/>
 		<include name="logos" 		displayName="Logos"/>
@@ -115,8 +121,17 @@ license: creative commons CC-BY-NC-SA
 		<include name="Hide" displayName="${hide}"/>
 	</subset>
 	
+	<!-- Subset options for gameDescription fontsize -->
+	<subset name="systemDescFontsize" 	displayName="${system.Desc.Fontsize}">
+		<include name="auto" 			displayName="auto"/>
+		<include name="small" 			displayName="${small}"/>
+		<include name="medium" 			displayName="${medium}"/>
+		<include name="large" 			displayName="${large}"/>
+	</subset>
+
+	
 <!-- Subset options for Background Animation in wheel and simple view -->
-	<subset name="bgAnima" 			displayName="${bganima}">
+	<subset name="bgAnima" ifSubset="SystemView:wheel|simple"	displayName="${bganima}">
 		<include name="slidedown" 	displayName="${slidedown}"/>
 		<include name="offset" 		displayName="${offset}"/>
 		<include name="zoomout" 	displayName="${zoomout}"/>
@@ -135,6 +150,9 @@ license: creative commons CC-BY-NC-SA
 		<include name="None" displayName="${none}"/>
 		<include name="ScanLines" displayName="${scanlines}">./_inc/xml/shader/scanlines.xml</include>
 		<include name="Crt" displayName="${crt}">./_inc/xml/shader/crt.xml</include>
+		<include name="Lcd gba" displayName="${lcd_gba}">./_inc/xml/shader/lcd_gba.xml</include>
+		<include name="Lcd gameboy" displayName="${lcd_gameboy}">./_inc/xml/shader/lcd_gameboy.xml</include>
+		<include name="Lcd gamegear" displayName="${lcd_gamegear}">./_inc/xml/shader/lcd_gamegear.xml</include>
 	</subset>
 
 <!-- Affichage des descriptions des jeux / developper / year-->
@@ -163,6 +181,22 @@ license: creative commons CC-BY-NC-SA
 		<include name="yes2s" 	displayName="${twoDelay}"/>
 		<include name="yes5s" 	displayName="${threeDelay}"/>
 		<include name="hide" 	displayName="${dontPlay}"/>
+	</subset>
+	
+<!-- Subset options for gamelist fontsize -->
+	<subset name="gamelistFontsize" 	displayName="${gamelist.Fontsize}" appliesTo="detailed">
+		<include name="auto" 			displayName="auto"/>
+		<include name="small" 			displayName="${small}"/>
+		<include name="medium" 			displayName="${medium}"/>
+		<include name="large" 			displayName="${large}"/>
+	</subset>
+	
+<!-- Subset options for gameDescription fontsize -->
+	<subset name="gameDescFontsize" 	displayName="${game.Desc.Fontsize}" appliesTo="detailed,grid,gamecarousel">
+		<include name="auto" 			displayName="auto"/>
+		<include name="small" 			displayName="${small}"/>
+		<include name="medium" 			displayName="${medium}"/>
+		<include name="large" 			displayName="${large}"/>
 	</subset>
 	
 <!--  MENU Popup  -->
@@ -237,7 +271,7 @@ license: creative commons CC-BY-NC-SA
 		<path>./../zzz-DX_Add-On/_inc/music/${system.theme}.ogg</path>
 	</sound>		
   
-	<image name="logo" extra="true">
+	<image name="logo">
 	  <path>${themePath}/art/logos/${system.theme}.png</path>
 	  <path>${themePath}/art/logos/${system.theme}.svg</path>
 	  <path>${themePath}/art/logos/${system.theme}-${lang}.png</path>

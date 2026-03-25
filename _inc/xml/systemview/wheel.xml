@@ -10,7 +10,7 @@
 		<visible>false</visible>
 	</text>
 
-	<image name="logo" extra="true">
+	<image name="logo">
 		<storyboard event="activate" repeatAt="300">
 			<animation property="scale" to="1.05" begin="" duration="300" mode="EaseInOut"/>
 			<animation property="saturation" to="0" begin="4300" duration="2500" autoreverse="true" mode="easeInOut"/>

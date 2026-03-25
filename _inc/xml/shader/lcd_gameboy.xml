@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="screen">
+	<image name="lcd_gameboy" extra="true">
+		<pos>0 0</pos>
+		<size>1 1</size>
+		<path>./../../../art/shaders/lcd_gameboy.png</path>
+		<color>9BBC0F70</color>
+		<tile>true</tile>
+	</image>
+  </view>
+</theme>
+
+
+
