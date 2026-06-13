@@ -23,9 +23,17 @@
 	<dontPlay>Ne pas afficher</dontPlay>
 	
 	<Colorway>Gamme de Couleurs</Colorway>
-	<extraDark>Foncé</extraDark>
-	<dark>Clair</dark>
+	<extraDark>Dark</extraDark>
+	<dark>Light</dark>
 	<steamOs>Steam</steamOs>
+	<commodore64>Commodore 64</commodore64>
+	<gameboy>Game Boy</gameboy>
+	<neogeo>Neo Geo Gold</neogeo>
+	<amstradcpc>Amstrad CPC</amstradcpc>
+	<emerald>Émeraude</emerald>
+	<desert>Désert</desert>
+	<midnightPurple>Nuit Pourpre</midnightPurple>
+	<ocean>Océan</ocean>	
 	
 	<subset.shader>Filtres écran</subset.shader>
 

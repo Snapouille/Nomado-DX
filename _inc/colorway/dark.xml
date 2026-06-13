@@ -7,9 +7,10 @@
             <backgroundColor2>2d2d2d</backgroundColor2>
             <mainColor>0afdca</mainColor>
             <highlightColor>82f0ff</highlightColor>
-            <secondaryColor>f4f4f4</secondaryColor>
-            <tertiaryColor>82f0ff</tertiaryColor>
+            <secondaryColor>7aa7ff</secondaryColor>
+            <tertiaryColor>aab9cf</tertiaryColor>
             <systemColor>3aa5ab</systemColor>
+			<dataColor>2f7dff</dataColor>
             <placeholderColor>505050</placeholderColor>
         </variables>
 </theme>

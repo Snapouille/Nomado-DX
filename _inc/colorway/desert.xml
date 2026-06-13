@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<colorSchemeName>desert</colorSchemeName>
+		<backgroundColor>2b241c</backgroundColor>
+		<backgroundColor2>4d4032</backgroundColor2>
+		<mainColor>d7b374</mainColor>
+		<highlightColor>f8e2ba</highlightColor>
+		<secondaryColor>ffd48a</secondaryColor>
+		<tertiaryColor>b2a18b</tertiaryColor>
+		<systemColor>c79a52</systemColor>
+		<dataColor>ffe0a0</dataColor>
+		<placeholderColor>6a5c4d</placeholderColor>
+	</variables>
+</theme>

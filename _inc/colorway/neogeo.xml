@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+		<variables>
+			<colorSchemeName>neogeo</colorSchemeName>
+			<backgroundColor>101010</backgroundColor>
+			<backgroundColor2>242424</backgroundColor2>
+			<mainColor>c9a24d</mainColor>
+			<highlightColor>f4d89c</highlightColor>
+			<secondaryColor>ffd36a</secondaryColor>
+			<tertiaryColor>a99870</tertiaryColor>
+			<systemColor>b88d32</systemColor>
+			<dataColor>f4d89c</dataColor>
+			<placeholderColor>555555</placeholderColor>
+		</variables>
+</theme>

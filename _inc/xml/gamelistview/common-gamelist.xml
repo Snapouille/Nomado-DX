@@ -46,7 +46,7 @@
 			<size>0.974 0.374</size>									
 			<pos>-0.5 0.755</pos>
 			<pos ifHelpPrompts="false">-0.5 0.793</pos>
-			<color>000000</color>
+			<color>${backgroundColor2}</color>
 			<zIndex>5004</zIndex>
 		</image>
 		
@@ -126,7 +126,7 @@
 		
 		<image name="cadre-manufacturer">
 			<size>0.496 0.098</size>									
-			<color>000000</color>
+			<color>${backgroundColor2}</color>
 			<zIndex>5001</zIndex>
 		</image>
 		
@@ -332,7 +332,7 @@
 	<!-- METADATA -->
 		<text name="md_playcount, md_lastplayed, md_gametime">
 		   <fontSize>0.026</fontSize>
-		   <color>0066ff</color>
+		   <color>${dataColor}</color>
 		   <alignment>right</alignment>
 		   <size>0.2 0.03</size>
 		   <x>0.88</x>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<colorSchemeName>amstradcpc</colorSchemeName>
+		<backgroundColor>001a4d</backgroundColor>
+		<backgroundColor2>003380</backgroundColor2>
+		<mainColor>ffd400</mainColor>
+		<highlightColor>fff2a8</highlightColor>
+		<secondaryColor>ffffff</secondaryColor>
+		<tertiaryColor>a0b0d0</tertiaryColor>
+		<systemColor>ffea00</systemColor>
+		<dataColor>ffd400</dataColor>
+		<placeholderColor>405070</placeholderColor>
+	</variables>
+</theme>

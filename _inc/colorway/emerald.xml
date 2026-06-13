@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<colorSchemeName>emerald</colorSchemeName>
+		<backgroundColor>0f1613</backgroundColor>
+		<backgroundColor2>1f332c</backgroundColor2>
+		<mainColor>47c78b</mainColor>
+		<highlightColor>bff5dd</highlightColor>
+		<secondaryColor>7dffbf</secondaryColor>
+		<tertiaryColor>88a79b</tertiaryColor>
+		<systemColor>2fa96e</systemColor>
+		<dataColor>8fffd0</dataColor>
+		<placeholderColor>46534d</placeholderColor>
+	</variables>
+</theme>

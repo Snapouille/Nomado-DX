@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
-        <variables>
-            <colorSchemeName>extradark</colorSchemeName>
-            <backgroundColor>111111</backgroundColor>
-            <backgroundColor2>2d2d2d</backgroundColor2>
-            <mainColor>488bf7</mainColor>
-            <highlightColor>82f0ff</highlightColor>
-            <secondaryColor>f4f4f4</secondaryColor>
-            <tertiaryColor>2de2e6</tertiaryColor>
-            <systemColor>3aa5ab</systemColor>
-            <placeholderColor>505050</placeholderColor>
-        </variables>		
+		<variables>
+			<colorSchemeName>extradark</colorSchemeName>
+			<backgroundColor>101010</backgroundColor>
+			<backgroundColor2>202020</backgroundColor2>
+			<mainColor>6d8fb8</mainColor>
+			<highlightColor>b8d4ff</highlightColor>
+			<secondaryColor>3399ff</secondaryColor>
+			<tertiaryColor>8a97aa</tertiaryColor>
+			<systemColor>7aa8c7</systemColor>
+			<dataColor>0066ff</dataColor>
+			<placeholderColor>505050</placeholderColor>	
+		</variables>
 </theme>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<colorSchemeName>ocean</colorSchemeName>
+		<backgroundColor>08151b</backgroundColor>
+		<backgroundColor2>12303b</backgroundColor2>
+		<mainColor>4fc4d6</mainColor>
+		<highlightColor>c8f7ff</highlightColor>
+		<secondaryColor>d7eef2</secondaryColor>
+		<tertiaryColor>8ca6ad</tertiaryColor>
+		<systemColor>35a6b8</systemColor>
+		<dataColor>8fefff</dataColor>
+		<placeholderColor>42555b</placeholderColor>
+	</variables>
+</theme>

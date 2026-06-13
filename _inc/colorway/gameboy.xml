@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+		<variables>
+			<colorSchemeName>gameboy</colorSchemeName>
+			<backgroundColor>1f2a1c</backgroundColor>
+			<backgroundColor2>35472f</backgroundColor2>
+			<mainColor>8faa45</mainColor>
+			<highlightColor>c7df7a</highlightColor>
+			<secondaryColor>dce8b8</secondaryColor>
+			<tertiaryColor>9aaa78</tertiaryColor>
+			<systemColor>6f8f34</systemColor>
+			<dataColor>c7df7a</dataColor>
+			<placeholderColor>4f5d44</placeholderColor>
+		</variables>
+</theme>

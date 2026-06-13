@@ -10,6 +10,7 @@
             <secondaryColor>ffffff</secondaryColor>
             <tertiaryColor>7aa6c2</tertiaryColor>
             <systemColor>3aa5ab</systemColor>
+			<dataColor>66c0f4</dataColor>
             <placeholderColor>505050</placeholderColor>
         </variables>
 </theme>

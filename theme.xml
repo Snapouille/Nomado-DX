@@ -33,6 +33,14 @@ license: creative commons CC-BY-NC-SA
 	<extraDark>Dark</extraDark>
 	<dark>Light</dark>
 	<steamOs>Steam</steamOs>
+	<commodore64>Commodore 64</commodore64>
+	<gameboy>Game Boy</gameboy>
+	<neogeo>Neo Geo Gold</neogeo>
+	<amstradcpc>Amstrad CPC</amstradcpc>
+	<emerald>Emerald</emerald>
+	<desert>Desert</desert>
+	<midnightPurple>Midnight Purple</midnightPurple>
+	<ocean>Ocean</ocean>
 	
 	<subset.shader>Screen Filters</subset.shader>
 	
@@ -77,7 +85,7 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 	
 	<subset name="theme_version" 	displayName="Theme version">
-		<include name="version" 	displayName="V 1.10 - 2026 03 25" />
+		<include name="version" 	displayName="V 1.11 - 2026 06 13" />
 	</subset>
 	
 <!-- Subset options for splashscreen Logos -->
@@ -139,10 +147,18 @@ license: creative commons CC-BY-NC-SA
 	</subset>
 	
 <!-- Subset options for colorway choice -->
-	<subset name="colorway" 		displayName="${Colorway}">
-		<include name="extradark" 	displayName="${extraDark}">./_inc/colorway/extradark.xml</include>
-		<include name="dark" 		displayName="${dark}">./_inc/colorway/dark.xml</include>
-		<include name="steamos" 	displayName="${steamOs}">./_inc/colorway/steamos.xml</include>
+	<subset name="colorway" displayName="${Colorway}">
+		<include name="extradark" 		displayName="${extraDark}">./_inc/colorway/extradark.xml</include>
+		<include name="dark" 			displayName="${dark}">./_inc/colorway/dark.xml</include>
+		<include name="steamos" 		displayName="${steamOs}">./_inc/colorway/steamos.xml</include>
+		<include name="commodore64" 	displayName="${commodore64}">./_inc/colorway/commodore64.xml</include>
+		<include name="gameboy" displayName="${gameboy}">./_inc/colorway/gameboy.xml</include>
+		<include name="neogeo" displayName="${neogeo}">./_inc/colorway/neogeo.xml</include>
+		<include name="amstradcpc" displayName="${amstradcpc}">./_inc/colorway/amstradcpc.xml</include>
+		<include name="emerald" displayName="${emerald}">./_inc/colorway/emerald.xml</include>
+		<include name="desert" displayName="${desert}">./_inc/colorway/desert.xml</include>
+		<include name="midnightPurple" displayName="${midnightPurple}">./_inc/colorway/midnightpurple.xml</include>
+		<include name="ocean" displayName="${ocean}">./_inc/colorway/ocean.xml</include>
 	</subset>
 	
 <!-- Subset options for screen -->

@@ -1,3 +1,7 @@
+## V 1.11 - (2026 06 13) 
+- Added several new color themes
+- Refined color palettes to reduce overly flashy colors and improve visual comfort
+
 ## V 1.10 - (2026 03 25) 
 - Added gamelist font size option
 - Added game description font size option

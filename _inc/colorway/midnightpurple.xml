@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<colorSchemeName>midnightpurple</colorSchemeName>
+		<backgroundColor>120f1c</backgroundColor>
+		<backgroundColor2>251d3c</backgroundColor2>
+		<mainColor>a17cff</mainColor>
+		<highlightColor>dfd1ff</highlightColor>
+		<secondaryColor>d8cdf2</secondaryColor>
+		<tertiaryColor>a69db8</tertiaryColor>
+		<systemColor>8862e6</systemColor>
+		<dataColor>cab8ff</dataColor>
+		<placeholderColor>514a62</placeholderColor>
+	</variables>
+</theme>

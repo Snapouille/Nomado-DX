@@ -31,7 +31,8 @@
 		<fontSize ifSubset="gamelistFontsize:large">0.044</fontSize>
 		<primaryColor>${tertiaryColor}</primaryColor>
 		<secondaryColor>${tertiaryColor}</secondaryColor>
-		<selectorColor>c0a767</selectorColor>
+		<!-- <selectorColor>c0a767</selectorColor> -->
+		<selectorColor>${secondaryColor}</selectorColor>
 		<selectedColor>${backgroundColor}</selectedColor>
 		<extraTextColor>606060</extraTextColor>		
 		<extraTextSelectedColor>0440ae</extraTextSelectedColor>
@@ -242,7 +243,7 @@
 		   <origin>0.5 0.5</origin>	
 		   <fontPath>${fontPath}</fontPath>
 		   <fontSize>0.026</fontSize>
-		   <color>0066ff</color>
+		   <color>${dataColor}</color>
 		   <glowSize>0</glowSize>
 		   <alignment>right</alignment>
 		   <size>0.2 0.03</size>

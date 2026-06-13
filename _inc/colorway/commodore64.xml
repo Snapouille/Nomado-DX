@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+		<variables>
+			<colorSchemeName>commodore64</colorSchemeName>
+			<backgroundColor>222f72</backgroundColor>
+			<backgroundColor2>3949a3</backgroundColor2>
+			<mainColor>8ab4ff</mainColor>
+			<highlightColor>d4e4ff</highlightColor>
+			<secondaryColor>e6d89a</secondaryColor>
+			<tertiaryColor>a7b2d6</tertiaryColor>
+			<systemColor>6e8fe0</systemColor>
+			<dataColor>ffd24a</dataColor>
+			<placeholderColor>56618f</placeholderColor>
+		</variables>
+</theme>
