@@ -3,14 +3,14 @@
 	<formatVersion>7</formatVersion>
 		<variables>
 			<colorSchemeName>extradark</colorSchemeName>
-			<backgroundColor>101010</backgroundColor>
-			<backgroundColor2>202020</backgroundColor2>
-			<mainColor>6d8fb8</mainColor>
-			<highlightColor>b8d4ff</highlightColor>
-			<secondaryColor>3399ff</secondaryColor>
-			<tertiaryColor>8a97aa</tertiaryColor>
-			<systemColor>7aa8c7</systemColor>
-			<dataColor>0066ff</dataColor>
-			<placeholderColor>505050</placeholderColor>	
+			<backgroundColor>080808</backgroundColor>
+			<backgroundColor2>151515</backgroundColor2>
+			<mainColor>6d88a8</mainColor>
+			<highlightColor>c4d2e3</highlightColor>
+			<secondaryColor>bfc9d6</secondaryColor>
+			<tertiaryColor>6f7b8a</tertiaryColor>
+			<systemColor>8294ab</systemColor>
+			<dataColor>fff0b3</dataColor>
+			<placeholderColor>3a3a3a</placeholderColor>
 		</variables>
 </theme>
